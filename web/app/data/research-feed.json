@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-29T12:49:39.100Z",
+  "updatedAt": "2026-06-04T12:47:43.680Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -127,6 +127,26 @@
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
         {
+          "title": "Mamba-Enhanced Implicit Motion Learning for Audio-Driven Portrait Animation",
+          "link": "https://arxiv.org/abs/2606.03402v2",
+          "published": "2026-06-02T09:43:55.000Z",
+          "authors": "Xuan Wei",
+          "summary": "Audio-driven human motion video generation aims to synthesize realistic and temporally coherent human animations from a single static image, with applications in talking-head synthesis, co-speech gesture generation, and dynamic presentations. Moving beyond conventional keypoin...",
+          "tags": [
+            "audio-driven"
+          ]
+        },
+        {
+          "title": "Temporally-Aligned Evaluation for Audio-Driven Talking Head Generation",
+          "link": "https://arxiv.org/abs/2606.01031v1",
+          "published": "2026-05-31T05:44:42.000Z",
+          "authors": "Zhicheng Zhang",
+          "summary": "Audio-driven talking-head generation has advanced rapidly, yet existing evaluation protocols mainly rely on frame-wise metrics that assume strict temporal correspondence between generated and reference videos. This assumption does not match speech-driven facial motion, which n...",
+          "tags": [
+            "audio-driven"
+          ]
+        },
+        {
           "title": "CapTalk: Text-Guided Stylization and Speech-Driven 3D Head Animation",
           "link": "https://arxiv.org/abs/2605.29316v1",
           "published": "2026-05-28T03:46:11.000Z",
@@ -227,25 +247,6 @@
           "tags": [
             "monocular"
           ]
-        },
-        {
-          "title": "Any3DAvatar: Fast and High-Quality Full-Head 3D Avatar Reconstruction from Single Portrait Image",
-          "link": "https://arxiv.org/abs/2604.13856v1",
-          "published": "2026-04-15T13:24:47.000Z",
-          "authors": "Yujie Gao",
-          "summary": "Reconstructing a complete 3D head from a single portrait remains challenging because existing methods still face a sharp quality-speed trade-off: high-fidelity pipelines often rely on multi-stage processing and per-subject optimization, while fast feed-forward models struggle ...",
-          "tags": []
-        },
-        {
-          "title": "SyncBreaker:Stage-Aware Multimodal Adversarial Attacks on Audio-Driven Talking Head Generation",
-          "link": "https://arxiv.org/abs/2604.08405v2",
-          "published": "2026-04-09T16:03:24.000Z",
-          "authors": "Wenli Zhang",
-          "summary": "Diffusion-based audio-driven talking-head generation enables realistic portrait animation, but also introduces risks of misuse, such as fraud and misinformation. Existing protection methods are largely limited to a single modality, and neither image-only nor audio-only attacks...",
-          "tags": [
-            "audio-driven",
-            "diffusion"
-          ]
         }
       ]
     },
@@ -253,6 +254,50 @@
       "label": "Gaussian Splatting (3DGS)",
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
+        {
+          "title": "FreeStreamGS: Online Feed-forward 3D Gaussian Splatting from Unposed Streaming Inputs",
+          "link": "https://arxiv.org/abs/2606.03254v1",
+          "published": "2026-06-02T07:16:09.000Z",
+          "authors": "Ruiyang Chen",
+          "summary": "Feed-forward 3D Gaussian Splatting (3DGS) allows efficient and high-fidelity novel view synthesis (NVS) from an offline recorded image sequence. However, achieving online NVS from streaming and unposed image inputs remains challenging. Although online feed-forward geometric es...",
+          "tags": [
+            "gaussian"
+          ]
+        },
+        {
+          "title": "VEDAL: Variational Error-Driven Asynchronous Learning for 3D Gaussian Splatting Pruning",
+          "link": "https://arxiv.org/abs/2606.02346v1",
+          "published": "2026-06-01T14:56:50.000Z",
+          "authors": "Aoduo Li",
+          "summary": "3D Gaussian Splatting (3DGS) achieves remarkable novel view synthesis quality with real-time rendering, yet suffers from excessive memory consumption due to millions of Gaussian primitives. Existing pruning methods rely on heuristic importance scores or synchronous batch updat...",
+          "tags": [
+            "gaussian",
+            "real-time"
+          ]
+        },
+        {
+          "title": "Splatshot: 3D Face Avatar Generation from a Single Unconstrained Photo",
+          "link": "https://arxiv.org/abs/2606.01493v1",
+          "published": "2026-05-31T23:19:44.000Z",
+          "authors": "Hao Liang",
+          "summary": "Reconstructing a photorealistic 3D face avatar from a single unconstrained photograph is challenging: feed-forward 3D Gaussian Splatting (3DGS) models degrade on out-of-distribution inputs, while pretrained diffusion models produce high-fidelity images but lack multi-view cons...",
+          "tags": [
+            "diffusion",
+            "gaussian",
+            "multi-view"
+          ]
+        },
+        {
+          "title": "Real-Time Physics Simulation with Dynamic Mesh-Gaussian Reconstructions",
+          "link": "https://arxiv.org/abs/2606.00444v1",
+          "published": "2026-05-30T00:30:11.000Z",
+          "authors": "Adrian Ramlal",
+          "summary": "Integrating dynamic 3D reconstructions into physics simulation requires fixed mesh topology for efficient collision detection, but state-of-the-art methods like DG-Mesh produce varying topology optimized for geometric quality. We investigate whether topology conversion can ena...",
+          "tags": [
+            "gaussian",
+            "real-time"
+          ]
+        },
         {
           "title": "PhyGenHOI: Physically-Aware 4D Generation of Dynamic Human-Object Interactions",
           "link": "https://arxiv.org/abs/2605.30268v1",
@@ -336,49 +381,6 @@
           "tags": [
             "gaussian",
             "real-time"
-          ]
-        },
-        {
-          "title": "High-Fidelity Surface Splatting-Based 3D Reconstruction from Multi-View Images",
-          "link": "https://arxiv.org/abs/2605.07254v1",
-          "published": "2026-05-08T05:23:28.000Z",
-          "authors": "Nandhana Sunil",
-          "summary": "Multi-view mesh reconstruction remains a core challenge in computer graphics and vision, especially for recovering high-frequency geometry from sparse observations. Recent methods such as 3D Gaussian Splatting (3DGS) and Neural Radiance Fields (NeRF) rely on post-processing fo...",
-          "tags": [
-            "gaussian",
-            "multi-view"
-          ]
-        },
-        {
-          "title": "HumanSplatHMR: Closing the Loop Between Human Mesh Recovery and Gaussian Splatting Avatar",
-          "link": "https://arxiv.org/abs/2605.02784v2",
-          "published": "2026-05-04T16:26:11.000Z",
-          "authors": "Yeheng Zong",
-          "summary": "Accurately recovering human pose and appearance from video is an essential component of scene reconstruction, with applications to motion capture, motion prediction, virtual reality, and digital twinning. Despite significant interest in building realistic human avatars from vi...",
-          "tags": [
-            "gaussian"
-          ]
-        },
-        {
-          "title": "Semantic Foam: Unifying Spatial and Semantic Scene Decomposition",
-          "link": "https://arxiv.org/abs/2604.26262v2",
-          "published": "2026-04-29T03:40:13.000Z",
-          "authors": "Amr Sharafeldin",
-          "summary": "Modern scene reconstruction methods, such as 3D Gaussian Splatting, deliver photo-realistic novel view synthesis at real-time speeds, yet their adoption in interactive graphics applications has been limited. A major bottleneck is the difficulty of interacting with these repres...",
-          "tags": [
-            "gaussian",
-            "real-time"
-          ]
-        },
-        {
-          "title": "Generalizable Human Gaussian Splatting via Multi-view Semantic Consistency",
-          "link": "https://arxiv.org/abs/2604.25466v1",
-          "published": "2026-04-28T10:12:28.000Z",
-          "authors": "Jingi Kim",
-          "summary": "Recently, generalizable human Gaussian splatting from sparse-view inputs has been actively studied for the photorealistic human rendering. Most existing methods rely on explicit geometric constraints or predefined structural representations to accurately position 3D Gaussians....",
-          "tags": [
-            "gaussian",
-            "multi-view"
           ]
         }
       ]
