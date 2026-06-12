@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-10T13:37:14.214Z",
+  "updatedAt": "2026-06-12T13:32:10.919Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -41,6 +41,14 @@
           "tags": [
             "gaussian"
           ]
+        },
+        {
+          "title": "Ex-Omni: Enabling 3D Facial Animation Generation for Omni-modal Large Language Models",
+          "link": "https://arxiv.org/abs/2602.07106v2",
+          "published": "2026-02-06T18:03:30.000Z",
+          "authors": "Haoyu Zhang",
+          "summary": "Omni-modal large language models (OLLMs) aim to unify multimodal understanding and generation, yet extending them to jointly produce speech and 3D facial animation remains largely unexplored despite its importance for natural human-computer interaction. A key challenge is the ...",
+          "tags": []
         },
         {
           "title": "RigAnyFace: Scaling Neural Facial Mesh Auto-Rigging with Unlabeled Data",
@@ -109,16 +117,6 @@
           "tags": [
             "lip-sync"
           ]
-        },
-        {
-          "title": "CartoonAlive: Towards Expressive Live2D Modeling from Single Portraits",
-          "link": "https://arxiv.org/abs/2507.17327v1",
-          "published": "2025-07-23T08:52:48.000Z",
-          "authors": "Chao He",
-          "summary": "With the rapid advancement of large foundation models, AIGC, cloud rendering, and real-time motion capture technologies, digital humans are now capable of achieving synchronized facial expressions and body movements, engaging in intelligent dialogues driven by natural language...",
-          "tags": [
-            "real-time"
-          ]
         }
       ]
     },
@@ -126,6 +124,16 @@
       "label": "Generative Video Models",
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
+        {
+          "title": "ReFree: Towards Realistic Co-Speech Video Generation via Reward-Free RL and Multilevel Speech Guidance",
+          "link": "https://arxiv.org/abs/2606.13304v1",
+          "published": "2026-06-11T13:00:58.000Z",
+          "authors": "Salaheldin Mohamed",
+          "summary": "Speech-driven talking character animation seeks to generate life-like portrait videos that convey natural conversation behavior, aligning facial motion with spoken audio. Although recent advances in video generation have substantially improved realism in video-based animation,...",
+          "tags": [
+            "audio-driven"
+          ]
+        },
         {
           "title": "PrismAvatar: Pseudo-Multiview Reconstruction and Subpixel Prism Rendering for Real-Time Stereoscopic Communication",
           "link": "https://arxiv.org/abs/2606.10550v1",
@@ -238,17 +246,6 @@
           "tags": [
             "monocular",
             "multi-view"
-          ]
-        },
-        {
-          "title": "EmbodiedHead: Real-Time Listening and Speaking Avatar for Conversational Agents",
-          "link": "https://arxiv.org/abs/2604.17211v1",
-          "published": "2026-04-19T02:43:00.000Z",
-          "authors": "Yu Zhang",
-          "summary": "We present EmbodiedHead, a speech-driven talking-head framework that equips LLMs with real-time visual avatars for conversation. A practical embodied avatar must achieve real-time generation, unified listening-speaking behavior, and high rendered visual quality simultaneously....",
-          "tags": [
-            "audio-driven",
-            "real-time"
           ]
         }
       ]
