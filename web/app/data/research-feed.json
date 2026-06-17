@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T15:15:20.649Z",
+  "updatedAt": "2026-06-17T13:47:56.137Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -259,6 +259,17 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "Edit3DGS: Unified Framework for Dynamic Head Editing via 2D Instruction-Guided Diffusion and 3D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2606.17432v1",
+          "published": "2026-06-16T02:26:20.000Z",
+          "authors": "Duy-Dat Tran",
+          "summary": "We present Edit3DGS, a unified framework for dynamic 3D head editing that integrates 2D instruction-guided diffusion with 3D Gaussian splatting. Unlike prior approaches that separately address frame-based edits or static 3D reconstruction, our method couples semantic controlla...",
+          "tags": [
+            "diffusion",
+            "gaussian"
+          ]
+        },
+        {
           "title": "EmoZone-Talker: Regional Semantic Control of Audio-Driven 3DGS Talking Heads via Facial Action Units",
           "link": "https://arxiv.org/abs/2606.15848v1",
           "published": "2026-06-14T15:10:05.000Z",
@@ -376,17 +387,6 @@
           "summary": "Feed-forward 3D Gaussian Splatting models offer fast single-pass reconstruction,but scaling them to match per-scene optimization quality is fundamentally hindered by the scarcity of large-scale 3D annotations. A practical compromise is predict-then-refine,where post-prediction...",
           "tags": [
             "gaussian"
-          ]
-        },
-        {
-          "title": "3D Skew Gaussian Splatting with Any Camera Trajectory Visualization Engine",
-          "link": "https://arxiv.org/abs/2605.18334v1",
-          "published": "2026-05-18T12:49:53.000Z",
-          "authors": "Beizhen Zhao",
-          "summary": "While 3D Gaussian Splatting (3DGS) has revolutionized real-time photorealistic view synthesis, its fundamental reliance on symmetric Gaussian distributions introduces visual artifacts that hinder accurate spatial data exploration. Specifically, symmetric kernels struggle to ca...",
-          "tags": [
-            "gaussian",
-            "real-time"
           ]
         }
       ]
