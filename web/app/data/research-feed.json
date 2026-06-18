@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T13:47:56.137Z",
+  "updatedAt": "2026-06-18T13:33:08.432Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -259,6 +259,17 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "Hand-4DGS: Feed-Forward 3D Gaussian Splatting for 4D Hand Reconstruction from Egocentric Videos",
+          "link": "https://arxiv.org/abs/2606.19156v1",
+          "published": "2026-06-17T14:58:37.000Z",
+          "authors": "Jeongmin Bae",
+          "summary": "Dynamic 3D hand reconstruction from egocentric videos is essential for next-generation computing platforms such as AR/VR and AI glasses. Despite its importance, most prior works focus either on multi-view 3D hand reconstruction or on 4D human body reconstruction. Egocentric 4D...",
+          "tags": [
+            "gaussian",
+            "multi-view"
+          ]
+        },
+        {
           "title": "Edit3DGS: Unified Framework for Dynamic Head Editing via 2D Instruction-Guided Diffusion and 3D Gaussian Splatting",
           "link": "https://arxiv.org/abs/2606.17432v1",
           "published": "2026-06-16T02:26:20.000Z",
@@ -377,16 +388,6 @@
             "diffusion",
             "gaussian",
             "real-time"
-          ]
-        },
-        {
-          "title": "ForeSplat: Optimization-Aware Foresight for Feed-Forward 3D Gaussian Splatting",
-          "link": "https://arxiv.org/abs/2605.22020v2",
-          "published": "2026-05-21T05:38:47.000Z",
-          "authors": "Yuke Li",
-          "summary": "Feed-forward 3D Gaussian Splatting models offer fast single-pass reconstruction,but scaling them to match per-scene optimization quality is fundamentally hindered by the scarcity of large-scale 3D annotations. A practical compromise is predict-then-refine,where post-prediction...",
-          "tags": [
-            "gaussian"
           ]
         }
       ]
