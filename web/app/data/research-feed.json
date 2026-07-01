@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T12:16:37.660Z",
+  "updatedAt": "2026-07-01T12:38:43.111Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -125,6 +125,18 @@
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
         {
+          "title": "SyncCache: Exploiting Asymmetric Dynamics for Fast Audio-Driven Portrait Animation",
+          "link": "https://arxiv.org/abs/2606.30849v1",
+          "published": "2026-06-29T19:26:13.000Z",
+          "authors": "Juncheng Ma",
+          "summary": "Diffusion Transformers (DiTs) have significantly advanced audio-driven portrait animation, but their high computational cost leads to substantial inference latency. Although training-free diffusion caching accelerates inference significant, existing methods are primarily devel...",
+          "tags": [
+            "audio-driven",
+            "diffusion",
+            "transformer"
+          ]
+        },
+        {
           "title": "FFAvatar: Feed-Forward 4D Head Avatar Reconstruction from Sparse Portrait Images",
           "link": "https://arxiv.org/abs/2606.30347v1",
           "published": "2026-06-29T14:21:33.000Z",
@@ -241,17 +253,6 @@
           "tags": [
             "diffusion"
           ]
-        },
-        {
-          "title": "Talker-T2AV: Joint Talking Audio-Video Generation with Autoregressive Diffusion Modeling",
-          "link": "https://arxiv.org/abs/2604.23586v1",
-          "published": "2026-04-26T07:48:47.000Z",
-          "authors": "Zhen Ye",
-          "summary": "Joint audio-video generation models have shown that unified generation yields stronger cross-modal coherence than cascaded approaches. However, existing models couple modalities throughout denoising via pervasive attention, treating high-level semantics and low-level details i...",
-          "tags": [
-            "diffusion",
-            "transformer"
-          ]
         }
       ]
     },
@@ -259,6 +260,16 @@
       "label": "Gaussian Splatting (3DGS)",
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
+        {
+          "title": "PointSplat: Compact Gaussian Splatting via Human-Centric Prediction",
+          "link": "https://arxiv.org/abs/2606.32036v1",
+          "published": "2026-06-30T17:59:05.000Z",
+          "authors": "Yujie Guo",
+          "summary": "Producing 3D human representations from input views on the fly is essential for immersive live streaming systems, where representation compactness is as critical as high fidelity given limited computational power and transmission bandwidth. Although recent feed-forward reconst...",
+          "tags": [
+            "gaussian"
+          ]
+        },
         {
           "title": "L2D2-GS: Learning to Densify for Feedforward Dynamic Gaussian Scene Reconstruction",
           "link": "https://arxiv.org/abs/2606.29374v1",
@@ -377,17 +388,6 @@
             "diffusion",
             "gaussian",
             "multi-view"
-          ]
-        },
-        {
-          "title": "Real-Time Physics Simulation with Dynamic Mesh-Gaussian Reconstructions",
-          "link": "https://arxiv.org/abs/2606.00444v1",
-          "published": "2026-05-30T00:30:11.000Z",
-          "authors": "Adrian Ramlal",
-          "summary": "Integrating dynamic 3D reconstructions into physics simulation requires fixed mesh topology for efficient collision detection, but state-of-the-art methods like DG-Mesh produce varying topology optimized for geometric quality. We investigate whether topology conversion can ena...",
-          "tags": [
-            "gaussian",
-            "real-time"
           ]
         }
       ]
