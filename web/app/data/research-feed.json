@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T12:38:43.111Z",
+  "updatedAt": "2026-07-02T12:13:15.134Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -125,6 +125,19 @@
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
         {
+          "title": "GaussianEmoTalker: Real-Time Emotional Talking Head Synthesis with Audio-Driven and Blendshape-Based 3D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2607.00959v1",
+          "published": "2026-07-01T13:56:38.000Z",
+          "authors": "Haijie Yang",
+          "summary": "Audio-driven talking head synthesis has achieved impressive progress in lip synchronization and visual quality, yet generating expressive emotional avatars with controllable intensity remains challenging, especially under real-time constraints. In this paper, we present Gaussi...",
+          "tags": [
+            "audio-driven",
+            "gaussian",
+            "lip-sync",
+            "real-time"
+          ]
+        },
+        {
           "title": "SyncCache: Exploiting Asymmetric Dynamics for Fast Audio-Driven Portrait Animation",
           "link": "https://arxiv.org/abs/2606.30849v1",
           "published": "2026-06-29T19:26:13.000Z",
@@ -243,16 +256,6 @@
             "gaussian",
             "real-time"
           ]
-        },
-        {
-          "title": "MoCoTalk: Multi-Conditional Diffusion with Adaptive Router for Controllable Talking Head Generation",
-          "link": "https://arxiv.org/abs/2605.08050v1",
-          "published": "2026-05-08T17:40:01.000Z",
-          "authors": "Xinyan Ye",
-          "summary": "Talking-head generation requires joint modeling of identity, head pose, facial expression, and mouth dynamics. Existing methods typically address only a subset of these factors, and rely on fixed-weight or heuristic fusion when multiple conditions are involved. We present MoCo...",
-          "tags": [
-            "diffusion"
-          ]
         }
       ]
     },
@@ -260,6 +263,19 @@
       "label": "Gaussian Splatting (3DGS)",
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
+        {
+          "title": "GaussianEmoTalker: Real-Time Emotional Talking Head Synthesis with Audio-Driven and Blendshape-Based 3D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2607.00959v1",
+          "published": "2026-07-01T13:56:38.000Z",
+          "authors": "Haijie Yang",
+          "summary": "Audio-driven talking head synthesis has achieved impressive progress in lip synchronization and visual quality, yet generating expressive emotional avatars with controllable intensity remains challenging, especially under real-time constraints. In this paper, we present Gaussi...",
+          "tags": [
+            "audio-driven",
+            "gaussian",
+            "lip-sync",
+            "real-time"
+          ]
+        },
         {
           "title": "PointSplat: Compact Gaussian Splatting via Human-Centric Prediction",
           "link": "https://arxiv.org/abs/2606.32036v1",
@@ -376,18 +392,6 @@
           "tags": [
             "gaussian",
             "real-time"
-          ]
-        },
-        {
-          "title": "Splatshot: 3D Face Avatar Generation from a Single Unconstrained Photo",
-          "link": "https://arxiv.org/abs/2606.01493v1",
-          "published": "2026-05-31T23:19:44.000Z",
-          "authors": "Hao Liang",
-          "summary": "Reconstructing a photorealistic 3D face avatar from a single unconstrained photograph is challenging: feed-forward 3D Gaussian Splatting (3DGS) models degrade on out-of-distribution inputs, while pretrained diffusion models produce high-fidelity images but lack multi-view cons...",
-          "tags": [
-            "diffusion",
-            "gaussian",
-            "multi-view"
           ]
         }
       ]
