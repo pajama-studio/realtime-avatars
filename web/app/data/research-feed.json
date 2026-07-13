@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T11:50:19.981Z",
+  "updatedAt": "2026-07-13T12:35:22.990Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -264,6 +264,17 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "SplatCtrl: Perception-Action Coupling via Gaussian Scene Representations and Reactive Robot Control",
+          "link": "https://arxiv.org/abs/2607.08948v1",
+          "published": "2026-07-09T21:18:39.000Z",
+          "authors": "Siddarth Jain",
+          "summary": "Robotic manipulators excel in structured environments but face substantial challenges in unstructured and dynamic settings. This paper presents SplatCtrl, a unified framework for real-time scene reconstruction and reactive robot motion generation to enable collision-free robot...",
+          "tags": [
+            "gaussian",
+            "real-time"
+          ]
+        },
+        {
           "title": "GUSH3R: Everyone Everywhere All at Once as Gaussians",
           "link": "https://arxiv.org/abs/2607.05243v1",
           "published": "2026-07-06T15:53:09.000Z",
@@ -382,16 +393,6 @@
           "tags": [
             "gaussian",
             "telepresence"
-          ]
-        },
-        {
-          "title": "FreeStreamGS: Online Feed-forward 3D Gaussian Splatting from Unposed Streaming Inputs",
-          "link": "https://arxiv.org/abs/2606.03254v1",
-          "published": "2026-06-02T07:16:09.000Z",
-          "authors": "Ruiyang Chen",
-          "summary": "Feed-forward 3D Gaussian Splatting (3DGS) allows efficient and high-fidelity novel view synthesis (NVS) from an offline recorded image sequence. However, achieving online NVS from streaming and unposed image inputs remains challenging. Although online feed-forward geometric es...",
-          "tags": [
-            "gaussian"
           ]
         }
       ]
