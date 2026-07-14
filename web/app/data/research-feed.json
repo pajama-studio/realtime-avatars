@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T12:35:22.990Z",
+  "updatedAt": "2026-07-14T11:36:46.506Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -264,6 +264,16 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "Incremental Online Scene Reconstruction by 3D Gaussian Triangulation",
+          "link": "https://arxiv.org/abs/2607.10690v1",
+          "published": "2026-07-12T10:22:18.000Z",
+          "authors": "Yanjin Zhu",
+          "summary": "Incremental scene reconstruction is essential for real-world applications. Although 3D Gaussian Splatting shows strong potential, most existing approaches require offline conversion of the optimized Gaussians into an intermediate implicit field for explicit mesh extraction, wh...",
+          "tags": [
+            "gaussian"
+          ]
+        },
+        {
           "title": "SplatCtrl: Perception-Action Coupling via Gaussian Scene Representations and Reactive Robot Control",
           "link": "https://arxiv.org/abs/2607.08948v1",
           "published": "2026-07-09T21:18:39.000Z",
@@ -382,17 +392,6 @@
             "audio-driven",
             "diffusion",
             "gaussian"
-          ]
-        },
-        {
-          "title": "SpatialAvatar-0: High-Quality 4D Head Avatar with Multi-Stage Reconstruction",
-          "link": "https://arxiv.org/abs/2606.15659v1",
-          "published": "2026-06-14T07:55:57.000Z",
-          "authors": "Yiran Wang",
-          "summary": "High-quality 4D head avatars from one or a few source portraits are central to telepresence, AR/VR, and digital-human interaction. 3D Gaussian Splatting (3DGS) has emerged as the dominant representation, with two complementary regimes (generalizable feed-forward predictors and...",
-          "tags": [
-            "gaussian",
-            "telepresence"
           ]
         }
       ]
