@@ -1,11 +1,19 @@
 {
-  "updatedAt": "2026-07-14T11:36:46.506Z",
+  "updatedAt": "2026-07-15T11:40:15.785Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
       "label": "MetaHuman / Graphics Pipeline",
       "query": "cat:cs.CV AND (all:metahuman OR (all:realtime AND all:facial AND all:animation) OR (all:facial AND all:retargeting AND all:rig) OR all:blendshape)",
       "items": [
+        {
+          "title": "RegHead: Non-Humanoid Head Blendshapes via Feed-Forward Registration",
+          "link": "https://arxiv.org/abs/2607.12206v1",
+          "published": "2026-07-13T23:16:29.000Z",
+          "authors": "Jiahao Luo",
+          "summary": "We present RegHead, a framework for constructing semantic blendshape sets for animatable non-humanoid head avatars. With a fixed expression vocabulary, semantic blendshapes provide a low-dimensional and interpretable animation interface and support cross-identity retargeting. ...",
+          "tags": []
+        },
         {
           "title": "OmniFaceRig: Fully Automatic Inner-Mouth-Aware Face Rigging Across Diverse 3D Character Topologies",
           "link": "https://arxiv.org/abs/2606.08043v1",
@@ -107,16 +115,6 @@
             "diffusion",
             "real-time"
           ]
-        },
-        {
-          "title": "JOLT3D: Joint Learning of Talking Heads and 3DMM Parameters with Application to Lip-Sync",
-          "link": "https://arxiv.org/abs/2507.20452v1",
-          "published": "2025-07-28T01:00:59.000Z",
-          "authors": "Sungjoon Park",
-          "summary": "In this work, we revisit the effectiveness of 3DMM for talking head synthesis by jointly learning a 3D face reconstruction model and a talking head synthesis model. This enables us to obtain a FACS-based blendshape representation of facial expressions that is optimized for tal...",
-          "tags": [
-            "lip-sync"
-          ]
         }
       ]
     },
@@ -151,7 +149,7 @@
         },
         {
           "title": "FFAvatar: Feed-Forward 4D Head Avatar Reconstruction from Sparse Portrait Images",
-          "link": "https://arxiv.org/abs/2606.30347v1",
+          "link": "https://arxiv.org/abs/2606.30347v2",
           "published": "2026-06-29T14:21:33.000Z",
           "authors": "Jianjiang Yao",
           "summary": "We present FFAvatar, a Transformer-based 3D Gaussian framework for fast construction of high-quality and animatable 4D head avatars from one or more reference portrait images. Unlike existing feed-forward approaches that require a fixed number of input views, FFAvatar supports...",
