@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T11:40:15.785Z",
+  "updatedAt": "2026-07-21T11:51:30.721Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -262,6 +262,17 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "FF-ProCams: Feed-Forward Gaussian Splatting for Projector-Camera System",
+          "link": "https://arxiv.org/abs/2607.17803v1",
+          "published": "2026-07-20T10:42:16.000Z",
+          "authors": "Ziyao Wang",
+          "summary": "Projector-camera (ProCams) systems achieve active scene perception and controllable appearance manipulation via structured illumination, serving as a core infrastructure for spatial augmented reality, projection mapping, and surface reflectance acquisition. Existing inverse-re...",
+          "tags": [
+            "gaussian",
+            "relighting"
+          ]
+        },
+        {
           "title": "Incremental Online Scene Reconstruction by 3D Gaussian Triangulation",
           "link": "https://arxiv.org/abs/2607.10690v1",
           "published": "2026-07-12T10:22:18.000Z",
@@ -376,18 +387,6 @@
           "authors": "Duy-Dat Tran",
           "summary": "We present Edit3DGS, a unified framework for dynamic 3D head editing that integrates 2D instruction-guided diffusion with 3D Gaussian splatting. Unlike prior approaches that separately address frame-based edits or static 3D reconstruction, our method couples semantic controlla...",
           "tags": [
-            "diffusion",
-            "gaussian"
-          ]
-        },
-        {
-          "title": "EmoZone-Talker: Regional Semantic Control of Audio-Driven 3DGS Talking Heads via Facial Action Units",
-          "link": "https://arxiv.org/abs/2606.15848v1",
-          "published": "2026-06-14T15:10:05.000Z",
-          "authors": "Tingting Chen",
-          "summary": "3D Gaussian Splatting (3DGS) has shown strong potential for high-fidelity talking head synthesis. However, enabling fine-grained, interpretable, and editable facial expression control remains fundamentally challenging due to intrinsic conflicts between speech-driven facial dyn...",
-          "tags": [
-            "audio-driven",
             "diffusion",
             "gaussian"
           ]
