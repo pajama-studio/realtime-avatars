@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T11:51:30.721Z",
+  "updatedAt": "2026-07-22T11:53:01.351Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -262,6 +262,17 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "FlexiAvatar: Unified 3D Gaussian Human Avatars Under Arbitrary Body Visibility",
+          "link": "https://arxiv.org/abs/2607.19100v1",
+          "published": "2026-07-21T13:43:31.000Z",
+          "authors": "Yihalem Yimolal Tiruneh",
+          "summary": "Reconstructing animatable 3D human avatars from monocular video is a fundamental problem in computer vision with broad applications in AR/VR and digital content creation. Existing approaches typically couple parametric body models with neural rendering or 3D Gaussian splatting...",
+          "tags": [
+            "gaussian",
+            "monocular"
+          ]
+        },
+        {
           "title": "FF-ProCams: Feed-Forward Gaussian Splatting for Projector-Camera System",
           "link": "https://arxiv.org/abs/2607.17803v1",
           "published": "2026-07-20T10:42:16.000Z",
@@ -378,17 +389,6 @@
           "tags": [
             "gaussian",
             "multi-view"
-          ]
-        },
-        {
-          "title": "Edit3DGS: Unified Framework for Dynamic Head Editing via 2D Instruction-Guided Diffusion and 3D Gaussian Splatting",
-          "link": "https://arxiv.org/abs/2606.17432v1",
-          "published": "2026-06-16T02:26:20.000Z",
-          "authors": "Duy-Dat Tran",
-          "summary": "We present Edit3DGS, a unified framework for dynamic 3D head editing that integrates 2D instruction-guided diffusion with 3D Gaussian splatting. Unlike prior approaches that separately address frame-based edits or static 3D reconstruction, our method couples semantic controlla...",
-          "tags": [
-            "diffusion",
-            "gaussian"
           ]
         }
       ]
