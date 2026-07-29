@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T11:46:55.094Z",
+  "updatedAt": "2026-07-29T12:06:40.057Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -104,17 +104,6 @@
           "authors": "Dalton Omens",
           "summary": "In this paper, we consider retargeting a tracked facial performance to either another person or to a virtual character in a game or virtual reality (VR) environment. We remove the difficulties associated with identifying and retargeting the semantics of one rig framework to an...",
           "tags": []
-        },
-        {
-          "title": "MienCap: Realtime Performance-Based Facial Animation with Live Mood Dynamics",
-          "link": "https://arxiv.org/abs/2508.04687v1",
-          "published": "2025-08-06T17:50:01.000Z",
-          "authors": "Ye Pan",
-          "summary": "Our purpose is to improve performance-based animation which can drive believable 3D stylized characters that are truly perceptual. By combining traditional blendshape animation techniques with multiple machine learning models, we present both non-real time and real time soluti...",
-          "tags": [
-            "diffusion",
-            "real-time"
-          ]
         }
       ]
     },
@@ -122,6 +111,27 @@
       "label": "Generative Video Models",
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
+        {
+          "title": "STEER: Steerable Dyadic Head Avatars",
+          "link": "https://arxiv.org/abs/2607.23840v1",
+          "published": "2026-07-26T20:53:41.000Z",
+          "authors": "Kartik Teotia",
+          "summary": "Facial movement and expression are central to face-to-face communication, conveying turn-taking, attention, agreement, and engagement alongside speech. While speech-driven facial animation has made strong progress in lip synchronization and audio-conditioned motion generation,...",
+          "tags": [
+            "audio-driven",
+            "diffusion",
+            "lip-sync",
+            "transformer"
+          ]
+        },
+        {
+          "title": "GRAPE: Graduated Routing for Articulated Portrait mesh Estimation",
+          "link": "https://arxiv.org/abs/2607.23657v1",
+          "published": "2026-07-26T13:46:04.000Z",
+          "authors": "Yunfei Liu",
+          "summary": "Articulated portrait mesh estimation is fundamental to 3D understanding, avatar generation, and immersive interaction. Existing approaches primarily rely on 3D Morphable Models (3DMMs). However, face-centric models suffer from the \"floating head\" assumption, conflating head po...",
+          "tags": []
+        },
         {
           "title": "GaussianEmoTalker: Real-Time Emotional Talking Head Synthesis with Audio-Driven and Blendshape-Based 3D Gaussian Splatting",
           "link": "https://arxiv.org/abs/2607.00959v1",
@@ -233,27 +243,6 @@
           "tags": [
             "audio-driven"
           ]
-        },
-        {
-          "title": "CogPortrait: Fine-Grained Eye-Region Control in Portrait Animation via Hierarchical Agent Planning",
-          "link": "https://arxiv.org/abs/2605.28056v1",
-          "published": "2026-05-27T07:02:31.000Z",
-          "authors": "He Feng",
-          "summary": "Portrait animation methods have achieved substantial visual quality and lip synchronization, but fine-grained manipulation of the eye region still faces a trade-off between input granularity and motion accuracy. Existing methods using emotion labels or coarse text prompts are ...",
-          "tags": [
-            "lip-sync"
-          ]
-        },
-        {
-          "title": "SplitAvatar: One-shot Head Avatar with Autoregressive Gaussian Splitting",
-          "link": "https://arxiv.org/abs/2605.25751v1",
-          "published": "2026-05-25T12:02:43.000Z",
-          "authors": "Hongzhe Liao",
-          "summary": "3D Gaussian Splatting (3DGS) provides an efficient method for high-quality scene reconstruction using anisotropic Gaussians. Recently, 3DGS-based methods have significantly improved the rendering quality of human avatars while enabling real-time performance. However, existing ...",
-          "tags": [
-            "gaussian",
-            "real-time"
-          ]
         }
       ]
     },
@@ -261,6 +250,16 @@
       "label": "Gaussian Splatting (3DGS)",
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
+        {
+          "title": "Head Avatars with Dynamic Explicit Hair",
+          "link": "https://arxiv.org/abs/2607.23861v1",
+          "published": "2026-07-26T22:08:13.000Z",
+          "authors": "Vanessa Sklyarova",
+          "summary": "We present DynHair, a novel method for tracking and modeling dynamic hair for human head avatars. From video input, we reconstruct a dynamic head avatar with an explicit strand-based hair representation using structured 3D Gaussian Splatting. In contrast to the face region of ...",
+          "tags": [
+            "gaussian"
+          ]
+        },
         {
           "title": "SubSplat: High-Resolution Pixel-aligned 3DGS via Sub-pixel Gaussian Reparameterization",
           "link": "https://arxiv.org/abs/2607.20813v1",
@@ -315,6 +314,16 @@
           ]
         },
         {
+          "title": "URHead: A Unified UV-Space Representation for Joint Mesh-3DGS Optimization in Head Avatars",
+          "link": "https://arxiv.org/abs/2607.22673v1",
+          "published": "2026-07-08T04:39:05.000Z",
+          "authors": "Seonghak Lee",
+          "summary": "We present URHead, a unified representation for high-fidelity and animatable head avatars that fundamentally redefines mesh-Gaussian integration. While mesh-based methods offer precise geometric control but lack photorealistic detail, and Gaussian-based approaches achieve phot...",
+          "tags": [
+            "gaussian"
+          ]
+        },
+        {
           "title": "GUSH3R: Everyone Everywhere All at Once as Gaussians",
           "link": "https://arxiv.org/abs/2607.05243v1",
           "published": "2026-07-06T15:53:09.000Z",
@@ -365,27 +374,6 @@
           "published": "2026-06-28T10:55:32.000Z",
           "authors": "Aymen Mir",
           "summary": "We study the problem of physically plausible shadow casting when animating 3D Gaussian Splatting (3DGS) avatars, either individually or in multi-avatar and object-interaction scenarios, within existing 3DGS scenes. In contrast to prior methods that rely on binary hit tests and...",
-          "tags": [
-            "gaussian"
-          ]
-        },
-        {
-          "title": "CoGS: Compositional Dynamic Human-Object Scenes Gaussian Splatting from Monocular Video",
-          "link": "https://arxiv.org/abs/2606.28820v1",
-          "published": "2026-06-27T09:10:22.000Z",
-          "authors": "Jerrin Bright",
-          "summary": "Reconstructing dynamic human--object interaction scenes from monocular video is difficult because the human, manipulated object, and background obey different motion models while sharing the same pixels. Existing dynamic radiance-field and Gaussian-splatting methods often enta...",
-          "tags": [
-            "gaussian",
-            "monocular"
-          ]
-        },
-        {
-          "title": "ArtiTwinSplat: Interactable Digital Twin Reconstruction via Gaussian Splatting from RGB-D videos",
-          "link": "https://arxiv.org/abs/2606.24628v1",
-          "published": "2026-06-23T14:24:07.000Z",
-          "authors": "Pranjal Mishra",
-          "summary": "Deploying robots in unstructured real-world environments needs accurate, interactive models of the objects. Constructing these models at scale remains a critical bottleneck for robotic system integration. We present ArtiTwinSplat, a framework that automatically constructs arti...",
           "tags": [
             "gaussian"
           ]
