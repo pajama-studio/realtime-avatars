@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T12:06:40.057Z",
+  "updatedAt": "2026-07-30T11:55:58.684Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -251,6 +251,16 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "SpatialQ: Understanding 3D Gaussian Splatting Scene Quality via Visual-based MLLM",
+          "link": "https://arxiv.org/abs/2607.26595v1",
+          "published": "2026-07-29T08:14:40.000Z",
+          "authors": "Jingxuan Su",
+          "summary": "3D Gaussian Splatting (3DGS) has emerged as an effective representation for novel view synthesis and 3D scene reconstruction, creating an increasing demand for reliable quality assessment. Unlike conventional image quality assessment (IQA), the quality of a 3DGS scene depends ...",
+          "tags": [
+            "gaussian"
+          ]
+        },
+        {
           "title": "Head Avatars with Dynamic Explicit Hair",
           "link": "https://arxiv.org/abs/2607.23861v1",
           "published": "2026-07-26T22:08:13.000Z",
@@ -366,16 +376,6 @@
           "tags": [
             "gaussian",
             "real-time"
-          ]
-        },
-        {
-          "title": "RAGA: Real Time Ray Traced Gaussian Shadow Casting for 3DGS Avatar-Scene Interaction",
-          "link": "https://arxiv.org/abs/2606.29329v1",
-          "published": "2026-06-28T10:55:32.000Z",
-          "authors": "Aymen Mir",
-          "summary": "We study the problem of physically plausible shadow casting when animating 3D Gaussian Splatting (3DGS) avatars, either individually or in multi-avatar and object-interaction scenarios, within existing 3DGS scenes. In contrast to prior methods that rely on binary hit tests and...",
-          "tags": [
-            "gaussian"
           ]
         }
       ]
