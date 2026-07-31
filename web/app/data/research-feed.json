@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T11:55:58.684Z",
+  "updatedAt": "2026-07-31T12:05:20.003Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -112,6 +112,26 @@
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
         {
+          "title": "S-Avatar: Diffusion-Guided Gaussian Head Avatars from a Single Image",
+          "link": "https://arxiv.org/abs/2607.28164v1",
+          "published": "2026-07-30T13:04:03.000Z",
+          "authors": "Hail Song",
+          "summary": "We propose S-Avatar, a novel method for generating photorealistic 3D head avatars from a single image using a diffusion-guided 3D model generation module and strategies for animating 3D Gaussian Splatting (3DGS). While single-image head avatar reconstruction is crucial for lif...",
+          "tags": [
+            "diffusion",
+            "gaussian",
+            "monocular"
+          ]
+        },
+        {
+          "title": "TongueReenact: Geometry-Anchored Tongue Synthesis for Face Reenactment",
+          "link": "https://arxiv.org/abs/2607.28039v1",
+          "published": "2026-07-30T11:23:36.000Z",
+          "authors": "MD Wahiduzzaman Khan",
+          "summary": "Modern face reenactment systems achieve impressive pose and expression transfer using geometry-driven representations. However, they largely ignore tongue dynamics, leading to anatomically inconsistent mouth interiors during speech and expressive motions. We introduce the firs...",
+          "tags": []
+        },
+        {
           "title": "STEER: Steerable Dyadic Head Avatars",
           "link": "https://arxiv.org/abs/2607.23840v1",
           "published": "2026-07-26T20:53:41.000Z",
@@ -223,26 +243,6 @@
           "tags": [
             "audio-driven"
           ]
-        },
-        {
-          "title": "Temporally-Aligned Evaluation for Audio-Driven Talking Head Generation",
-          "link": "https://arxiv.org/abs/2606.01031v1",
-          "published": "2026-05-31T05:44:42.000Z",
-          "authors": "Zhicheng Zhang",
-          "summary": "Audio-driven talking-head generation has advanced rapidly, yet existing evaluation protocols mainly rely on frame-wise metrics that assume strict temporal correspondence between generated and reference videos. This assumption does not match speech-driven facial motion, which n...",
-          "tags": [
-            "audio-driven"
-          ]
-        },
-        {
-          "title": "CapTalk: Text-Guided Stylization and Speech-Driven 3D Head Animation",
-          "link": "https://arxiv.org/abs/2605.29316v1",
-          "published": "2026-05-28T03:46:11.000Z",
-          "authors": "Xuangeng Chu",
-          "summary": "Audio-driven 3D facial animation aims to generate synchronized lip movements and vivid facial expressions from arbitrary audio clips. While existing methods can produce synchronized lip motions, they often rely on predefined identity or style latent features, which limits user...",
-          "tags": [
-            "audio-driven"
-          ]
         }
       ]
     },
@@ -250,6 +250,30 @@
       "label": "Gaussian Splatting (3DGS)",
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
+        {
+          "title": "S-Avatar: Diffusion-Guided Gaussian Head Avatars from a Single Image",
+          "link": "https://arxiv.org/abs/2607.28164v1",
+          "published": "2026-07-30T13:04:03.000Z",
+          "authors": "Hail Song",
+          "summary": "We propose S-Avatar, a novel method for generating photorealistic 3D head avatars from a single image using a diffusion-guided 3D model generation module and strategies for animating 3D Gaussian Splatting (3DGS). While single-image head avatar reconstruction is crucial for lif...",
+          "tags": [
+            "diffusion",
+            "gaussian",
+            "monocular"
+          ]
+        },
+        {
+          "title": "Split and Drive: Dual-Axis Disentanglement for Real-Time Gaussian Head Avatars",
+          "link": "https://arxiv.org/abs/2607.28032v1",
+          "published": "2026-07-30T11:17:25.000Z",
+          "authors": "MD Wahiduzzaman Khan",
+          "summary": "Creating photorealistic animatable head avatars from a single image remains a fundamental challenge in digital human synthesis. While recent 3D Gaussian Splatting methods have achieved promising results, they rely on external tracking pipelines whose latency is excluded from i...",
+          "tags": [
+            "gaussian",
+            "monocular",
+            "real-time"
+          ]
+        },
         {
           "title": "SpatialQ: Understanding 3D Gaussian Splatting Scene Quality via Visual-based MLLM",
           "link": "https://arxiv.org/abs/2607.26595v1",
@@ -354,27 +378,6 @@
             "audio-driven",
             "gaussian",
             "lip-sync",
-            "real-time"
-          ]
-        },
-        {
-          "title": "PointSplat: Compact Gaussian Splatting via Human-Centric Prediction",
-          "link": "https://arxiv.org/abs/2606.32036v1",
-          "published": "2026-06-30T17:59:05.000Z",
-          "authors": "Yujie Guo",
-          "summary": "Producing 3D human representations from input views on the fly is essential for immersive live streaming systems, where representation compactness is as critical as high fidelity given limited computational power and transmission bandwidth. Although recent feed-forward reconst...",
-          "tags": [
-            "gaussian"
-          ]
-        },
-        {
-          "title": "L2D2-GS: Learning to Densify for Feedforward Dynamic Gaussian Scene Reconstruction",
-          "link": "https://arxiv.org/abs/2606.29374v1",
-          "published": "2026-06-28T12:51:17.000Z",
-          "authors": "Zetian Song",
-          "summary": "High-fidelity reconstruction of dynamic urban environments is a cornerstone of autonomous driving simulation and large-scale world modeling. While 3D Gaussian Splatting (3DGS) has established a new standard for real-time rendering, its reliance on expensive per-scene optimizat...",
-          "tags": [
-            "gaussian",
             "real-time"
           ]
         }
