@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T12:05:20.003Z",
+  "updatedAt": "2026-08-04T12:05:49.946Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -96,14 +96,6 @@
           "tags": [
             "audio-driven"
           ]
-        },
-        {
-          "title": "Improving Facial Rig Semantics for Tracking and Retargeting",
-          "link": "https://arxiv.org/abs/2508.08429v1",
-          "published": "2025-08-11T19:39:04.000Z",
-          "authors": "Dalton Omens",
-          "summary": "In this paper, we consider retargeting a tracked facial performance to either another person or to a virtual character in a game or virtual reality (VR) environment. We remove the difficulties associated with identifying and retargeting the semantics of one rig framework to an...",
-          "tags": []
         }
       ]
     },
@@ -111,6 +103,18 @@
       "label": "Generative Video Models",
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
+        {
+          "title": "Proxy Avatar Meets Low-Rank Caching: Real-Time One-Shot Emotion-Controllable Portrait Animation",
+          "link": "https://arxiv.org/abs/2608.01978v1",
+          "published": "2026-08-03T09:41:59.000Z",
+          "authors": "Haijie Yang",
+          "summary": "Audio-driven portrait animation has advanced rapidly with diffusion-based generative models, yet real-time one-shot generation with expressive emotion control remains challenging. Existing methods often suffer from insufficient emotion-aware motion priors and expensive appeara...",
+          "tags": [
+            "audio-driven",
+            "diffusion",
+            "real-time"
+          ]
+        },
         {
           "title": "S-Avatar: Diffusion-Guided Gaussian Head Avatars from a Single Image",
           "link": "https://arxiv.org/abs/2607.28164v1",
@@ -130,6 +134,17 @@
           "authors": "MD Wahiduzzaman Khan",
           "summary": "Modern face reenactment systems achieve impressive pose and expression transfer using geometry-driven representations. However, they largely ignore tongue dynamics, leading to anatomically inconsistent mouth interiors during speech and expressive motions. We introduce the firs...",
           "tags": []
+        },
+        {
+          "title": "LeapTalk: Breaking the Latency-Quality Trade-off in Talking Head Generation",
+          "link": "https://arxiv.org/abs/2608.00079v1",
+          "published": "2026-07-29T14:44:57.000Z",
+          "authors": "Rongxiang Zhang",
+          "summary": "Long-form and real-time talking-head generation remains challenging due to a latency-quality trade-off: inefficient multi-step diffusion prohibits streaming generation, whereas real-time autoregressive approaches suffer from error accumulation and identity drift. To address th...",
+          "tags": [
+            "diffusion",
+            "real-time"
+          ]
         },
         {
           "title": "STEER: Steerable Dyadic Head Avatars",
@@ -220,29 +235,6 @@
           "tags": [
             "audio-driven"
           ]
-        },
-        {
-          "title": "LentiAvatar: Pseudo-Multiview Reconstruction and Subpixel Prism Rendering for Real-Time Stereoscopic Communication",
-          "link": "https://arxiv.org/abs/2606.10550v2",
-          "published": "2026-06-09T08:17:51.000Z",
-          "authors": "Chufeng Fang",
-          "summary": "Real-time stereoscopic video communication has long been a goal of immersive telepresence, yet practical systems still require specialized capture rigs or reduce remote users to a single portrait view. We present LentiAvatar, a Gaussian head-avatar system that connects monocul...",
-          "tags": [
-            "gaussian",
-            "multi-view",
-            "real-time",
-            "telepresence"
-          ]
-        },
-        {
-          "title": "Mamba-Enhanced Implicit Motion Learning for Audio-Driven Portrait Animation",
-          "link": "https://arxiv.org/abs/2606.03402v2",
-          "published": "2026-06-02T09:43:55.000Z",
-          "authors": "Xuan Wei",
-          "summary": "Audio-driven human motion video generation aims to synthesize realistic and temporally coherent human animations from a single static image, with applications in talking-head synthesis, co-speech gesture generation, and dynamic presentations. Moving beyond conventional keypoin...",
-          "tags": [
-            "audio-driven"
-          ]
         }
       ]
     },
@@ -250,6 +242,38 @@
       "label": "Gaussian Splatting (3DGS)",
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
+        {
+          "title": "GaussianSelector: Lightweight Human-Guided Object Selection in 3D Gaussian Splatting with Graph Optimization",
+          "link": "https://arxiv.org/abs/2608.01492v1",
+          "published": "2026-08-02T20:51:09.000Z",
+          "authors": "Baihan Yang",
+          "summary": "Selecting a complete 3D object from a reconstructed scene with minimal user effort is essential for practical scene editing and embodied interaction. Existing 3DGS-based methods either retrain the Gaussian representation to embed per-object labels, or build dense multi-view SA...",
+          "tags": [
+            "diffusion",
+            "gaussian",
+            "multi-view"
+          ]
+        },
+        {
+          "title": "Swimm3R: Splatting with Medium-aware SfM for Underwater 3D Reconstruction",
+          "link": "https://arxiv.org/abs/2608.00950v1",
+          "published": "2026-08-02T03:01:15.000Z",
+          "authors": "Minseong Kweon",
+          "summary": "We propose Swimm3R, a unified framework that combines medium-aware structure-from-motion (SfM) with Underwater Beta Splatting to address scattering- and attenuation-induced failures in underwater 3D reconstruction. Swimm3R distills in-air geometric priors into a feed-forward b...",
+          "tags": [
+            "gaussian"
+          ]
+        },
+        {
+          "title": "OASIS: Occlusion-aware Single-image Hand Avatar Reconstruction via 3D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2607.29633v1",
+          "published": "2026-07-31T17:09:46.000Z",
+          "authors": "Zhisheng Han",
+          "summary": "Single-image 3D hand avatar reconstruction is fundamentally ill-posed and particularly challenging due to limited visual evidence under severe self-occlusion and the complex pose-dependent deformation of highly articulated hands. Existing methods predominantly rely on implicit...",
+          "tags": [
+            "gaussian"
+          ]
+        },
         {
           "title": "S-Avatar: Diffusion-Guided Gaussian Head Avatars from a Single Image",
           "link": "https://arxiv.org/abs/2607.28164v1",
@@ -344,40 +368,6 @@
           "summary": "Robotic manipulators excel in structured environments but face substantial challenges in unstructured and dynamic settings. This paper presents SplatCtrl, a unified framework for real-time scene reconstruction and reactive robot motion generation to enable collision-free robot...",
           "tags": [
             "gaussian",
-            "real-time"
-          ]
-        },
-        {
-          "title": "URHead: A Unified UV-Space Representation for Joint Mesh-3DGS Optimization in Head Avatars",
-          "link": "https://arxiv.org/abs/2607.22673v1",
-          "published": "2026-07-08T04:39:05.000Z",
-          "authors": "Seonghak Lee",
-          "summary": "We present URHead, a unified representation for high-fidelity and animatable head avatars that fundamentally redefines mesh-Gaussian integration. While mesh-based methods offer precise geometric control but lack photorealistic detail, and Gaussian-based approaches achieve phot...",
-          "tags": [
-            "gaussian"
-          ]
-        },
-        {
-          "title": "GUSH3R: Everyone Everywhere All at Once as Gaussians",
-          "link": "https://arxiv.org/abs/2607.05243v1",
-          "published": "2026-07-06T15:53:09.000Z",
-          "authors": "Keito Abe",
-          "summary": "Reconstructing dynamic human-scene environments from monocular videos is a challenging problem that requires jointly modeling scene geometry, camera motion, and non-rigid human dynamics while enabling photorealistic rendering. Recent feed-forward methods can efficiently predic...",
-          "tags": [
-            "gaussian",
-            "monocular"
-          ]
-        },
-        {
-          "title": "GaussianEmoTalker: Real-Time Emotional Talking Head Synthesis with Audio-Driven and Blendshape-Based 3D Gaussian Splatting",
-          "link": "https://arxiv.org/abs/2607.00959v1",
-          "published": "2026-07-01T13:56:38.000Z",
-          "authors": "Haijie Yang",
-          "summary": "Audio-driven talking head synthesis has achieved impressive progress in lip synchronization and visual quality, yet generating expressive emotional avatars with controllable intensity remains challenging, especially under real-time constraints. In this paper, we present Gaussi...",
-          "tags": [
-            "audio-driven",
-            "gaussian",
-            "lip-sync",
             "real-time"
           ]
         }
