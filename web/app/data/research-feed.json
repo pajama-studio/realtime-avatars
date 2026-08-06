@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T12:05:49.946Z",
+  "updatedAt": "2026-08-06T12:06:35.850Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -243,6 +243,17 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "Multi-View Face and Gesture Animation with Dynamic Gaussians",
+          "link": "https://arxiv.org/abs/2608.04722v1",
+          "published": "2026-08-05T11:43:21.000Z",
+          "authors": "Alireza Javanmardi",
+          "summary": "Creating photorealistic 3D human avatars with realistic upper-body motion remains challenging. Existing approaches either focus on the head and overlook hand gestures, or reconstruct the full body but fail to preserve fine-grained facial fidelity and hand pose accuracy. As a r...",
+          "tags": [
+            "gaussian",
+            "multi-view"
+          ]
+        },
+        {
           "title": "GaussianSelector: Lightweight Human-Guided Object Selection in 3D Gaussian Splatting with Graph Optimization",
           "link": "https://arxiv.org/abs/2608.01492v1",
           "published": "2026-08-02T20:51:09.000Z",
@@ -358,17 +369,6 @@
           "summary": "Incremental scene reconstruction is essential for real-world applications. Although 3D Gaussian Splatting shows strong potential, most existing approaches require offline conversion of the optimized Gaussians into an intermediate implicit field for explicit mesh extraction, wh...",
           "tags": [
             "gaussian"
-          ]
-        },
-        {
-          "title": "SplatCtrl: Perception-Action Coupling via Gaussian Scene Representations and Reactive Robot Control",
-          "link": "https://arxiv.org/abs/2607.08948v1",
-          "published": "2026-07-09T21:18:39.000Z",
-          "authors": "Siddarth Jain",
-          "summary": "Robotic manipulators excel in structured environments but face substantial challenges in unstructured and dynamic settings. This paper presents SplatCtrl, a unified framework for real-time scene reconstruction and reactive robot motion generation to enable collision-free robot...",
-          "tags": [
-            "gaussian",
-            "real-time"
           ]
         }
       ]
