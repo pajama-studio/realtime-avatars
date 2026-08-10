@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T12:06:35.850Z",
+  "updatedAt": "2026-08-10T11:13:44.632Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -103,6 +103,17 @@
       "label": "Generative Video Models",
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
+        {
+          "title": "SubtleTalk: Generating Controllable Weakly-correlated Facial Dynamics for 3D Talking Heads via Residual Flow Matching",
+          "link": "https://arxiv.org/abs/2608.06408v1",
+          "published": "2026-08-03T11:28:19.000Z",
+          "authors": "Chenyang Ding",
+          "summary": "Audio-driven 3D facial animation aims to synthesize realistic and temporally coherent motions from speech. Despite notable progress in lip synchronization, weakly correlated dynamics, including eyebrow movements, eye blinks, and head motion, which are essential to photorealist...",
+          "tags": [
+            "audio-driven",
+            "lip-sync"
+          ]
+        },
         {
           "title": "Proxy Avatar Meets Low-Rank Caching: Real-Time One-Shot Emotion-Controllable Portrait Animation",
           "link": "https://arxiv.org/abs/2608.01978v1",
@@ -224,16 +235,6 @@
           "tags": [
             "gaussian",
             "telepresence"
-          ]
-        },
-        {
-          "title": "ReFree: Towards Realistic Co-Speech Video Generation via Reward-Free RL and Multilevel Speech Guidance",
-          "link": "https://arxiv.org/abs/2606.13304v1",
-          "published": "2026-06-11T13:00:58.000Z",
-          "authors": "Salaheldin Mohamed",
-          "summary": "Speech-driven talking character animation seeks to generate life-like portrait videos that convey natural conversation behavior, aligning facial motion with spoken audio. Although recent advances in video generation have substantially improved realism in video-based animation,...",
-          "tags": [
-            "audio-driven"
           ]
         }
       ]
