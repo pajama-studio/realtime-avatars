@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T11:13:47.711Z",
+  "updatedAt": "2026-08-11T10:55:59.128Z",
   "source": "GitHub Search",
   "queries": {
     "metahuman": {
@@ -18,7 +18,7 @@
           "name": "EpicGames/MetaHuman-DNA-Calibration",
           "link": "https://github.com/EpicGames/MetaHuman-DNA-Calibration",
           "description": "",
-          "stars": 606,
+          "stars": 607,
           "pushedAt": "2025-06-20T07:14:51.000Z",
           "language": "Mathematica"
         },
@@ -112,7 +112,7 @@
           "name": "Kedreamix/Linly-Talker",
           "link": "https://github.com/Kedreamix/Linly-Talker",
           "description": "Digital Avatar Conversational System - Linly-Talker.  Linly-Talker is an intelligent AI system that combines large language models (LLMs) with visual models to create a novel human-AI interaction method.  It integrates various technologies like Whisper, Linly, Microsoft Speech Services, and SadTalker talking head generation system. ",
-          "stars": 3424,
+          "stars": 3425,
           "pushedAt": "2026-02-10T05:17:05.000Z",
           "language": "Python"
         },
@@ -120,7 +120,7 @@
           "name": "yuyuyzl/EasyVtuber",
           "link": "https://github.com/yuyuyzl/EasyVtuber",
           "description": "Based on Talking-head-anime 3, works like Vtube Studio.",
-          "stars": 3026,
+          "stars": 3027,
           "pushedAt": "2026-02-12T07:11:57.000Z",
           "language": "Python"
         },
@@ -128,7 +128,7 @@
           "name": "tencent-ailab/V-Express",
           "link": "https://github.com/tencent-ailab/V-Express",
           "description": "V-Express aims to generate a talking head video under the control of a reference image, an audio, and a sequence of V-Kps images.",
-          "stars": 2357,
+          "stars": 2358,
           "pushedAt": "2025-01-24T14:40:41.000Z",
           "language": "Python"
         },
@@ -144,7 +144,7 @@
           "name": "harlanhong/awesome-talking-head-generation",
           "link": "https://github.com/harlanhong/awesome-talking-head-generation",
           "description": "",
-          "stars": 1928,
+          "stars": 1929,
           "pushedAt": "2026-04-27T04:48:12.000Z",
           "language": ""
         },
@@ -152,7 +152,7 @@
           "name": "ali-vilab/dreamtalk",
           "link": "https://github.com/ali-vilab/dreamtalk",
           "description": "Official implementations for paper: DreamTalk: When Expressive Talking Head Generation Meets Diffusion Probabilistic Models",
-          "stars": 1789,
+          "stars": 1788,
           "pushedAt": "2024-01-15T19:11:17.000Z",
           "language": "Python"
         },
@@ -168,7 +168,7 @@
           "name": "Kedreamix/Awesome-Talking-Head-Synthesis",
           "link": "https://github.com/Kedreamix/Awesome-Talking-Head-Synthesis",
           "description": " An extensive collection of exceptional resources dedicated to the captivating world of talking face synthesis!  If you find this repo useful, please give it a star! ",
-          "stars": 1539,
+          "stars": 1540,
           "pushedAt": "2026-05-20T03:36:24.000Z",
           "language": ""
         }
@@ -182,7 +182,7 @@
           "name": "graphdeco-inria/gaussian-splatting",
           "link": "https://github.com/graphdeco-inria/gaussian-splatting",
           "description": "Original reference implementation of \"3D Gaussian Splatting for Real-Time Radiance Field Rendering\"",
-          "stars": 22918,
+          "stars": 22924,
           "pushedAt": "2025-10-17T14:28:15.000Z",
           "language": "Python"
         },
@@ -190,7 +190,7 @@
           "name": "playcanvas/supersplat",
           "link": "https://github.com/playcanvas/supersplat",
           "description": "3D Gaussian Splat Editor",
-          "stars": 9817,
+          "stars": 9823,
           "pushedAt": "2026-08-05T17:10:07.000Z",
           "language": "TypeScript"
         },
@@ -198,7 +198,7 @@
           "name": "MrNeRF/awesome-3D-gaussian-splatting",
           "link": "https://github.com/MrNeRF/awesome-3D-gaussian-splatting",
           "description": "Curated list of papers and resources focused on 3D Gaussian Splatting, intended to keep pace with the anticipated surge of research in the coming months.",
-          "stars": 8809,
+          "stars": 8811,
           "pushedAt": "2026-08-04T09:09:58.000Z",
           "language": "Python"
         },
@@ -206,7 +206,7 @@
           "name": "nerfstudio-project/gsplat",
           "link": "https://github.com/nerfstudio-project/gsplat",
           "description": "CUDA accelerated rasterization of gaussian splatting",
-          "stars": 5511,
+          "stars": 5518,
           "pushedAt": "2026-07-24T11:55:32.000Z",
           "language": "Python"
         },
@@ -222,7 +222,7 @@
           "name": "hustvl/4DGaussians",
           "link": "https://github.com/hustvl/4DGaussians",
           "description": "[CVPR 2024] 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering",
-          "stars": 3868,
+          "stars": 3870,
           "pushedAt": "2024-10-27T04:07:37.000Z",
           "language": "Jupyter Notebook"
         },
@@ -230,8 +230,8 @@
           "name": "MrNeRF/LichtFeld-Studio",
           "link": "https://github.com/MrNeRF/LichtFeld-Studio",
           "description": "Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application.",
-          "stars": 3505,
-          "pushedAt": "2026-08-10T08:07:10.000Z",
+          "stars": 3513,
+          "pushedAt": "2026-08-11T10:33:39.000Z",
           "language": "C++"
         },
         {
@@ -246,7 +246,7 @@
           "name": "sparkjsdev/spark",
           "link": "https://github.com/sparkjsdev/spark",
           "description": ":sparkles: An advanced 3D Gaussian Splatting renderer for THREE.js",
-          "stars": 3480,
+          "stars": 3483,
           "pushedAt": "2026-07-15T17:01:46.000Z",
           "language": "TypeScript"
         },
