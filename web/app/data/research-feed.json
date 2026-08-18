@@ -1,11 +1,21 @@
 {
-  "updatedAt": "2026-08-10T11:13:44.632Z",
+  "updatedAt": "2026-08-18T10:35:13.047Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
       "label": "MetaHuman / Graphics Pipeline",
       "query": "cat:cs.CV AND (all:metahuman OR (all:realtime AND all:facial AND all:animation) OR (all:facial AND all:retargeting AND all:rig) OR all:blendshape)",
       "items": [
+        {
+          "title": "AnyTalk: Speech Animation for Arbitrary Characters Leveraging a Video Generation Model",
+          "link": "https://arxiv.org/abs/2608.16143v1",
+          "published": "2026-08-17T05:53:42.000Z",
+          "authors": "Kwan Yun",
+          "summary": "We present AnyTalk, a novel method for generating 3D speech animations for arbitrary characters without requiring any animation data. While existing audio-driven 3D speech animation methods rely on character-specific training data or laborious rigging/re-meshing, AnyTalk circu...",
+          "tags": [
+            "audio-driven"
+          ]
+        },
         {
           "title": "RegHead: Non-Humanoid Head Blendshapes via Feed-Forward Registration",
           "link": "https://arxiv.org/abs/2607.12206v1",
@@ -86,16 +96,6 @@
           "tags": [
             "diffusion"
           ]
-        },
-        {
-          "title": "Express4D: Expressive, Friendly, and Extensible 4D Facial Motion Generation Benchmark",
-          "link": "https://arxiv.org/abs/2508.12438v1",
-          "published": "2025-08-17T17:10:13.000Z",
-          "authors": "Yaron Aloni",
-          "summary": "Dynamic facial expression generation from natural language is a crucial task in Computer Graphics, with applications in Animation, Virtual Avatars, and Human-Computer Interaction. However, current generative models suffer from datasets that are either speech-driven or limited ...",
-          "tags": [
-            "audio-driven"
-          ]
         }
       ]
     },
@@ -103,6 +103,38 @@
       "label": "Generative Video Models",
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
+        {
+          "title": "AnyTalk: Speech Animation for Arbitrary Characters Leveraging a Video Generation Model",
+          "link": "https://arxiv.org/abs/2608.16143v1",
+          "published": "2026-08-17T05:53:42.000Z",
+          "authors": "Kwan Yun",
+          "summary": "We present AnyTalk, a novel method for generating 3D speech animations for arbitrary characters without requiring any animation data. While existing audio-driven 3D speech animation methods rely on character-specific training data or laborious rigging/re-meshing, AnyTalk circu...",
+          "tags": [
+            "audio-driven"
+          ]
+        },
+        {
+          "title": "CETalk: Continuous Valence-Arousal Control for Audio-Driven 3D Talking Head Generation",
+          "link": "https://arxiv.org/abs/2608.15110v1",
+          "published": "2026-08-15T08:22:50.000Z",
+          "authors": "Peng Jia",
+          "summary": "Emotional 3D talking head generation aims to synthesize expressive facial animations with accurate lip synchronization. However, existing methods often rely on discrete emotion categories, which fail to capture the continuous evolution of affect. They also overlook the tempora...",
+          "tags": [
+            "audio-driven",
+            "lip-sync"
+          ]
+        },
+        {
+          "title": "Xemo-Talker: Unlock Emotions Explicitly for Audio-Driven Talking Portrait Synthesis",
+          "link": "https://arxiv.org/abs/2608.14700v1",
+          "published": "2026-08-10T11:17:42.000Z",
+          "authors": "Chaolong Yang",
+          "summary": "Precise emotion control in audio-driven talking heads remains a challenge due to the reliance on implicit emotion regulation in existing systems, which often leads to indirect and insufficient control. Additionally, training with explicit emotion-related losses across the enti...",
+          "tags": [
+            "audio-driven",
+            "diffusion"
+          ]
+        },
         {
           "title": "SubtleTalk: Generating Controllable Weakly-correlated Facial Dynamics for 3D Talking Heads via Residual Flow Matching",
           "link": "https://arxiv.org/abs/2608.06408v1",
@@ -201,40 +233,6 @@
             "audio-driven",
             "diffusion",
             "transformer"
-          ]
-        },
-        {
-          "title": "FFAvatar: Feed-Forward 4D Head Avatar Reconstruction from Sparse Portrait Images",
-          "link": "https://arxiv.org/abs/2606.30347v2",
-          "published": "2026-06-29T14:21:33.000Z",
-          "authors": "Jianjiang Yao",
-          "summary": "We present FFAvatar, a Transformer-based 3D Gaussian framework for fast construction of high-quality and animatable 4D head avatars from one or more reference portrait images. Unlike existing feed-forward approaches that require a fixed number of input views, FFAvatar supports...",
-          "tags": [
-            "gaussian",
-            "transformer"
-          ]
-        },
-        {
-          "title": "EmoZone-Talker: Regional Semantic Control of Audio-Driven 3DGS Talking Heads via Facial Action Units",
-          "link": "https://arxiv.org/abs/2606.15848v1",
-          "published": "2026-06-14T15:10:05.000Z",
-          "authors": "Tingting Chen",
-          "summary": "3D Gaussian Splatting (3DGS) has shown strong potential for high-fidelity talking head synthesis. However, enabling fine-grained, interpretable, and editable facial expression control remains fundamentally challenging due to intrinsic conflicts between speech-driven facial dyn...",
-          "tags": [
-            "audio-driven",
-            "diffusion",
-            "gaussian"
-          ]
-        },
-        {
-          "title": "SpatialAvatar-0: High-Quality 4D Head Avatar with Multi-Stage Reconstruction",
-          "link": "https://arxiv.org/abs/2606.15659v1",
-          "published": "2026-06-14T07:55:57.000Z",
-          "authors": "Yiran Wang",
-          "summary": "High-quality 4D head avatars from one or a few source portraits are central to telepresence, AR/VR, and digital-human interaction. 3D Gaussian Splatting (3DGS) has emerged as the dominant representation, with two complementary regimes (generalizable feed-forward predictors and...",
-          "tags": [
-            "gaussian",
-            "telepresence"
           ]
         }
       ]
