@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T10:35:13.047Z",
+  "updatedAt": "2026-08-20T10:36:57.049Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -242,6 +242,17 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "Depth Anything V4: Dynamic 4D Scene Reconstruction via Riemannian Flow Matching on 4D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2608.18388v1",
+          "published": "2026-08-18T23:44:19.000Z",
+          "authors": "Jiaming Fan",
+          "summary": "We present Depth Anything V4 (DAV4), a framework for dynamic 4D scene reconstruction from monocular video. Our key contribution is the application of Riemannian Flow Matching (RFM) to 4D Gaussian Splatting parameters, defining probability paths directly on non-Euclidean manifo...",
+          "tags": [
+            "gaussian",
+            "monocular"
+          ]
+        },
+        {
           "title": "Multi-View Face and Gesture Animation with Dynamic Gaussians",
           "link": "https://arxiv.org/abs/2608.04722v1",
           "published": "2026-08-05T11:43:21.000Z",
@@ -358,16 +369,6 @@
           "tags": [
             "gaussian",
             "relighting"
-          ]
-        },
-        {
-          "title": "Incremental Online Scene Reconstruction by 3D Gaussian Triangulation",
-          "link": "https://arxiv.org/abs/2607.10690v1",
-          "published": "2026-07-12T10:22:18.000Z",
-          "authors": "Yanjin Zhu",
-          "summary": "Incremental scene reconstruction is essential for real-world applications. Although 3D Gaussian Splatting shows strong potential, most existing approaches require offline conversion of the optimized Gaussians into an intermediate implicit field for explicit mesh extraction, wh...",
-          "tags": [
-            "gaussian"
           ]
         }
       ]
