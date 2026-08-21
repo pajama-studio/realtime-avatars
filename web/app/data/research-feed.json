@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T10:36:57.049Z",
+  "updatedAt": "2026-08-21T10:36:17.468Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -242,8 +242,21 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+          "link": "https://arxiv.org/abs/2608.20335v1",
+          "published": "2026-08-20T17:59:53.000Z",
+          "authors": "Yudong Jin",
+          "summary": "We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating reconstruction-grade multiview-consistent videos and lifting them into 4D Gaussian Splatting (4DGS). Existing camera-controlled video diffusion models synthesize pl...",
+          "tags": [
+            "diffusion",
+            "gaussian",
+            "monocular",
+            "multi-view"
+          ]
+        },
+        {
           "title": "Depth Anything V4: Dynamic 4D Scene Reconstruction via Riemannian Flow Matching on 4D Gaussian Splatting",
-          "link": "https://arxiv.org/abs/2608.18388v1",
+          "link": "https://arxiv.org/abs/2608.18388v2",
           "published": "2026-08-18T23:44:19.000Z",
           "authors": "Jiaming Fan",
           "summary": "We present Depth Anything V4 (DAV4), a framework for dynamic 4D scene reconstruction from monocular video. Our key contribution is the application of Riemannian Flow Matching (RFM) to 4D Gaussian Splatting parameters, defining probability paths directly on non-Euclidean manifo...",
@@ -358,17 +371,6 @@
           "tags": [
             "gaussian",
             "monocular"
-          ]
-        },
-        {
-          "title": "FF-ProCams: Feed-Forward Gaussian Splatting for Projector-Camera System",
-          "link": "https://arxiv.org/abs/2607.17803v1",
-          "published": "2026-07-20T10:42:16.000Z",
-          "authors": "Ziyao Wang",
-          "summary": "Projector-camera (ProCams) systems achieve active scene perception and controllable appearance manipulation via structured illumination, serving as a core infrastructure for spatial augmented reality, projection mapping, and surface reflectance acquisition. Existing inverse-re...",
-          "tags": [
-            "gaussian",
-            "relighting"
           ]
         }
       ]
