@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T10:42:38.864Z",
+  "updatedAt": "2026-09-01T14:41:03.310Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -242,6 +242,16 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "When 3D Gaussian Splatting Recovers Real Surfaces",
+          "link": "https://arxiv.org/abs/2608.30054v1",
+          "published": "2026-08-30T21:30:26.000Z",
+          "authors": "Songhe Wang",
+          "summary": "When does 3D Gaussian Splatting (3DGS) recover the true scene surface rather than just overfitting view-dependent appearance? We answer this by developing a mathematical framework based on a first-hit rendering abstraction that cleanly isolates geometry from appearance. We pro...",
+          "tags": [
+            "gaussian"
+          ]
+        },
+        {
           "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
           "link": "https://arxiv.org/abs/2608.20335v1",
           "published": "2026-08-20T17:59:53.000Z",
@@ -360,17 +370,6 @@
           "summary": "Pixel-aligned Gaussian splatting enables efficient and generalizable novel-view synthesis. However, high-resolution rendering faces a critical trade-off where increasing input resolution improves detail at the expense of quadratically rising network computational cost. Convers...",
           "tags": [
             "gaussian"
-          ]
-        },
-        {
-          "title": "FlexiAvatar: Unified 3D Gaussian Human Avatars Under Arbitrary Body Visibility",
-          "link": "https://arxiv.org/abs/2607.19100v1",
-          "published": "2026-07-21T13:43:31.000Z",
-          "authors": "Yihalem Yimolal Tiruneh",
-          "summary": "Reconstructing animatable 3D human avatars from monocular video is a fundamental problem in computer vision with broad applications in AR/VR and digital content creation. Existing approaches typically couple parametric body models with neural rendering or 3D Gaussian splatting...",
-          "tags": [
-            "gaussian",
-            "monocular"
           ]
         }
       ]
