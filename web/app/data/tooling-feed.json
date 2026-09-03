@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T14:15:39.882Z",
+  "updatedAt": "2026-09-03T14:19:11.504Z",
   "source": "GitHub Search",
   "queries": {
     "metahuman": {
@@ -35,7 +35,7 @@
           "link": "https://github.com/poly-hammer/character-dna-addon",
           "description": "Imports MetaHuman head and body components into Blender from a their DNA files, lets you customize them, then send them back to MetaHuman Creator.",
           "stars": 282,
-          "pushedAt": "2026-08-31T20:56:20.000Z",
+          "pushedAt": "2026-09-02T18:53:37.000Z",
           "language": "Python"
         },
         {
@@ -58,7 +58,7 @@
           "name": "chrisevans3d/poseWrangler",
           "link": "https://github.com/chrisevans3d/poseWrangler",
           "description": "A simple visual front end to the Maya UE4 RBF plugin delivered with MetaHumans",
-          "stars": 160,
+          "stars": 161,
           "pushedAt": "2023-12-07T15:02:25.000Z",
           "language": ""
         },
@@ -168,9 +168,9 @@
           "name": "Kedreamix/Awesome-Talking-Head-Synthesis",
           "link": "https://github.com/Kedreamix/Awesome-Talking-Head-Synthesis",
           "description": " An extensive collection of exceptional resources dedicated to the captivating world of talking face synthesis!  If you find this repo useful, please give it a star! ",
-          "stars": 1548,
-          "pushedAt": "2026-05-20T03:36:24.000Z",
-          "language": ""
+          "stars": 1549,
+          "pushedAt": "2026-09-03T04:35:33.000Z",
+          "language": "Python"
         }
       ]
     },
@@ -182,7 +182,7 @@
           "name": "graphdeco-inria/gaussian-splatting",
           "link": "https://github.com/graphdeco-inria/gaussian-splatting",
           "description": "Original reference implementation of \"3D Gaussian Splatting for Real-Time Radiance Field Rendering\"",
-          "stars": 23707,
+          "stars": 23723,
           "pushedAt": "2025-10-17T14:28:15.000Z",
           "language": "Python"
         },
@@ -190,15 +190,15 @@
           "name": "playcanvas/supersplat",
           "link": "https://github.com/playcanvas/supersplat",
           "description": "3D Gaussian Splat Editor",
-          "stars": 9936,
-          "pushedAt": "2026-09-02T13:55:47.000Z",
+          "stars": 9944,
+          "pushedAt": "2026-09-03T10:51:46.000Z",
           "language": "TypeScript"
         },
         {
           "name": "MrNeRF/awesome-3D-gaussian-splatting",
           "link": "https://github.com/MrNeRF/awesome-3D-gaussian-splatting",
           "description": "Curated list of papers and resources focused on 3D Gaussian Splatting, intended to keep pace with the anticipated surge of research in the coming months.",
-          "stars": 8850,
+          "stars": 8854,
           "pushedAt": "2026-08-31T04:43:42.000Z",
           "language": "Python"
         },
@@ -206,7 +206,7 @@
           "name": "nerfstudio-project/gsplat",
           "link": "https://github.com/nerfstudio-project/gsplat",
           "description": "CUDA accelerated rasterization of gaussian splatting",
-          "stars": 5621,
+          "stars": 5626,
           "pushedAt": "2026-09-01T21:15:44.000Z",
           "language": "Python"
         },
@@ -222,7 +222,7 @@
           "name": "hustvl/4DGaussians",
           "link": "https://github.com/hustvl/4DGaussians",
           "description": "[CVPR 2024] 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering",
-          "stars": 3908,
+          "stars": 3911,
           "pushedAt": "2024-10-27T04:07:37.000Z",
           "language": "Jupyter Notebook"
         },
@@ -230,23 +230,23 @@
           "name": "MrNeRF/LichtFeld-Studio",
           "link": "https://github.com/MrNeRF/LichtFeld-Studio",
           "description": "Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application.",
-          "stars": 3646,
-          "pushedAt": "2026-09-02T12:09:06.000Z",
+          "stars": 3649,
+          "pushedAt": "2026-09-03T13:41:26.000Z",
           "language": "C++"
         },
         {
           "name": "sparkjsdev/spark",
           "link": "https://github.com/sparkjsdev/spark",
           "description": ":sparkles: An advanced 3D Gaussian Splatting renderer for THREE.js",
-          "stars": 3558,
-          "pushedAt": "2026-08-31T15:44:23.000Z",
+          "stars": 3563,
+          "pushedAt": "2026-09-02T22:24:57.000Z",
           "language": "TypeScript"
         },
         {
           "name": "Anttwo/SuGaR",
           "link": "https://github.com/Anttwo/SuGaR",
           "description": "[CVPR 2024] Official PyTorch implementation of SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering",
-          "stars": 3499,
+          "stars": 3498,
           "pushedAt": "2024-09-24T15:13:31.000Z",
           "language": "C++"
         },
