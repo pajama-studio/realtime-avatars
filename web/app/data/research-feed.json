@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T14:41:03.310Z",
+  "updatedAt": "2026-09-04T14:08:16.933Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -62,10 +62,10 @@
         },
         {
           "title": "Ex-Omni: Enabling 3D Facial Animation Generation for Omni-modal Large Language Models",
-          "link": "https://arxiv.org/abs/2602.07106v2",
+          "link": "https://arxiv.org/abs/2602.07106v3",
           "published": "2026-02-06T18:03:30.000Z",
           "authors": "Haoyu Zhang",
-          "summary": "Omni-modal large language models (OLLMs) aim to unify multimodal understanding and generation, yet extending them to jointly produce speech and 3D facial animation remains largely unexplored despite its importance for natural human-computer interaction. A key challenge is the ...",
+          "summary": "Omni-modal large language models (OLLMs) aim to unify multimodal understanding and generation, yet extending them to jointly produce speech and 3D facial animation remains largely underexplored. A key challenge is the mismatch between the discrete semantic reasoning of LLMs an...",
           "tags": []
         },
         {
