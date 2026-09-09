@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T14:19:46.713Z",
+  "updatedAt": "2026-09-09T14:20:51.473Z",
   "source": "GitHub Search",
   "queries": {
     "metahuman": {
@@ -34,8 +34,8 @@
           "name": "poly-hammer/character-dna-addon",
           "link": "https://github.com/poly-hammer/character-dna-addon",
           "description": "Imports MetaHuman head and body components into Blender from a their DNA files, lets you customize them, then send them back to MetaHuman Creator.",
-          "stars": 283,
-          "pushedAt": "2026-09-02T18:53:37.000Z",
+          "stars": 284,
+          "pushedAt": "2026-09-08T18:45:04.000Z",
           "language": "Python"
         },
         {
@@ -96,7 +96,7 @@
           "name": "AIGC-Audio/AudioGPT",
           "link": "https://github.com/AIGC-Audio/AudioGPT",
           "description": "AudioGPT: Understanding and Generating Speech, Music, Sound, and Talking Head",
-          "stars": 10165,
+          "stars": 10166,
           "pushedAt": "2024-07-06T21:35:18.000Z",
           "language": "Python"
         },
@@ -120,7 +120,7 @@
           "name": "yuyuyzl/EasyVtuber",
           "link": "https://github.com/yuyuyzl/EasyVtuber",
           "description": "Based on Talking-head-anime 3, works like Vtube Studio.",
-          "stars": 3060,
+          "stars": 3062,
           "pushedAt": "2026-02-12T07:11:57.000Z",
           "language": "Python"
         },
@@ -136,7 +136,7 @@
           "name": "pkhungurn/talking-head-anime-demo",
           "link": "https://github.com/pkhungurn/talking-head-anime-demo",
           "description": "Demo for the \"Talking Head Anime from a Single Image.\"",
-          "stars": 2027,
+          "stars": 2026,
           "pushedAt": "2022-06-29T20:27:14.000Z",
           "language": "Python"
         },
@@ -168,8 +168,8 @@
           "name": "Kedreamix/Awesome-Talking-Head-Synthesis",
           "link": "https://github.com/Kedreamix/Awesome-Talking-Head-Synthesis",
           "description": " An extensive collection of exceptional resources dedicated to the captivating world of talking face synthesis!  If you find this repo useful, please give it a star! ",
-          "stars": 1550,
-          "pushedAt": "2026-09-08T04:39:28.000Z",
+          "stars": 1552,
+          "pushedAt": "2026-09-09T04:45:09.000Z",
           "language": "Python"
         }
       ]
@@ -182,7 +182,7 @@
           "name": "graphdeco-inria/gaussian-splatting",
           "link": "https://github.com/graphdeco-inria/gaussian-splatting",
           "description": "Original reference implementation of \"3D Gaussian Splatting for Real-Time Radiance Field Rendering\"",
-          "stars": 23761,
+          "stars": 23779,
           "pushedAt": "2025-10-17T14:28:15.000Z",
           "language": "Python"
         },
@@ -190,15 +190,15 @@
           "name": "playcanvas/supersplat",
           "link": "https://github.com/playcanvas/supersplat",
           "description": "3D Gaussian Splat Editor",
-          "stars": 9970,
-          "pushedAt": "2026-09-08T10:32:45.000Z",
+          "stars": 9991,
+          "pushedAt": "2026-09-09T12:32:23.000Z",
           "language": "TypeScript"
         },
         {
           "name": "MrNeRF/awesome-3D-gaussian-splatting",
           "link": "https://github.com/MrNeRF/awesome-3D-gaussian-splatting",
           "description": "Curated list of papers and resources focused on 3D Gaussian Splatting, intended to keep pace with the anticipated surge of research in the coming months.",
-          "stars": 8871,
+          "stars": 8874,
           "pushedAt": "2026-09-03T21:49:29.000Z",
           "language": "Python"
         },
@@ -206,7 +206,7 @@
           "name": "nerfstudio-project/gsplat",
           "link": "https://github.com/nerfstudio-project/gsplat",
           "description": "CUDA accelerated rasterization of gaussian splatting",
-          "stars": 5653,
+          "stars": 5656,
           "pushedAt": "2026-09-03T16:55:09.000Z",
           "language": "Python"
         },
@@ -222,7 +222,7 @@
           "name": "hustvl/4DGaussians",
           "link": "https://github.com/hustvl/4DGaussians",
           "description": "[CVPR 2024] 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering",
-          "stars": 3922,
+          "stars": 3924,
           "pushedAt": "2024-10-27T04:07:37.000Z",
           "language": "Jupyter Notebook"
         },
@@ -230,16 +230,16 @@
           "name": "MrNeRF/LichtFeld-Studio",
           "link": "https://github.com/MrNeRF/LichtFeld-Studio",
           "description": "Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application.",
-          "stars": 3667,
-          "pushedAt": "2026-09-08T09:51:10.000Z",
+          "stars": 3673,
+          "pushedAt": "2026-09-09T11:16:58.000Z",
           "language": "C++"
         },
         {
           "name": "sparkjsdev/spark",
           "link": "https://github.com/sparkjsdev/spark",
           "description": ":sparkles: An advanced 3D Gaussian Splatting renderer for THREE.js",
-          "stars": 3582,
-          "pushedAt": "2026-09-03T16:16:50.000Z",
+          "stars": 3593,
+          "pushedAt": "2026-09-08T17:28:36.000Z",
           "language": "TypeScript"
         },
         {
@@ -254,7 +254,7 @@
           "name": "aras-p/UnityGaussianSplatting",
           "link": "https://github.com/aras-p/UnityGaussianSplatting",
           "description": "Toy Gaussian Splatting visualization in Unity",
-          "stars": 3395,
+          "stars": 3399,
           "pushedAt": "2025-10-17T07:21:38.000Z",
           "language": "C#"
         }
