@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T14:20:33.416Z",
+  "updatedAt": "2026-09-10T14:13:43.567Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -103,6 +103,16 @@
       "label": "Generative Video Models",
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
+        {
+          "title": "Decoupled Self-Forcing Distillation for Streaming Talking Head Generation",
+          "link": "https://arxiv.org/abs/2609.10317v1",
+          "published": "2026-09-09T15:22:49.000Z",
+          "authors": "Yanru An",
+          "summary": "Streaming talking-head generation produces each frame as its driving audio arrives, yet fidelity and efficiency have so far pulled in opposite directions: end-to-end methods condition a video diffusion model on audio directly and achieve high quality but only at large scale, w...",
+          "tags": [
+            "diffusion"
+          ]
+        },
         {
           "title": "AnyTalk: Speech Animation for Arbitrary Characters Leveraging a Video Generation Model",
           "link": "https://arxiv.org/abs/2608.16143v1",
@@ -221,18 +231,6 @@
             "gaussian",
             "lip-sync",
             "real-time"
-          ]
-        },
-        {
-          "title": "SyncCache: Exploiting Asymmetric Dynamics for Fast Audio-Driven Portrait Animation",
-          "link": "https://arxiv.org/abs/2606.30849v1",
-          "published": "2026-06-29T19:26:13.000Z",
-          "authors": "Juncheng Ma",
-          "summary": "Diffusion Transformers (DiTs) have significantly advanced audio-driven portrait animation, but their high computational cost leads to substantial inference latency. Although training-free diffusion caching accelerates inference significant, existing methods are primarily devel...",
-          "tags": [
-            "audio-driven",
-            "diffusion",
-            "transformer"
           ]
         }
       ]
