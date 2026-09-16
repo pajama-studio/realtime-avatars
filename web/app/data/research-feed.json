@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T14:13:43.567Z",
+  "updatedAt": "2026-09-16T14:45:42.707Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -240,6 +240,16 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "Bi-FlowGS: Bridging Generative View Completion and Gaussian Geometry through Bidirectional Flow Co-Refinement",
+          "link": "https://arxiv.org/abs/2609.17039v1",
+          "published": "2026-09-15T11:47:35.000Z",
+          "authors": "Yuetong Wang",
+          "summary": "Sparse-view 3D scene reconstruction with 3D Gaussian Splatting (3DGS) is inherently underconstrained. Plausible renderings can also coexist with erroneous Gaussian geometry, as errors in positions or depths may be concealed by opacity, scale, and appearance; we term this failu...",
+          "tags": [
+            "gaussian"
+          ]
+        },
+        {
           "title": "From Explicit References to Scene Manifolds: Distributional Fidelity and Realism for Radiance Field Quality Assessment",
           "link": "https://arxiv.org/abs/2609.07346v1",
           "published": "2026-09-07T11:09:30.000Z",
@@ -357,16 +367,6 @@
           "published": "2026-07-29T08:14:40.000Z",
           "authors": "Jingxuan Su",
           "summary": "3D Gaussian Splatting (3DGS) has emerged as an effective representation for novel view synthesis and 3D scene reconstruction, creating an increasing demand for reliable quality assessment. Unlike conventional image quality assessment (IQA), the quality of a 3DGS scene depends ...",
-          "tags": [
-            "gaussian"
-          ]
-        },
-        {
-          "title": "Head Avatars with Dynamic Explicit Hair",
-          "link": "https://arxiv.org/abs/2607.23861v1",
-          "published": "2026-07-26T22:08:13.000Z",
-          "authors": "Vanessa Sklyarova",
-          "summary": "We present DynHair, a novel method for tracking and modeling dynamic hair for human head avatars. From video input, we reconstruct a dynamic head avatar with an explicit strand-based hair representation using structured 3D Gaussian Splatting. In contrast to the face region of ...",
           "tags": [
             "gaussian"
           ]
