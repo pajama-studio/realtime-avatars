@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T14:45:42.707Z",
+  "updatedAt": "2026-09-18T14:18:48.761Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -95,6 +95,16 @@
           "summary": "Human-centric generative models designed for AI-driven storytelling must bring together two core capabilities: identity consistency and precise control over human performance. While recent diffusion-based approaches have made significant progress in maintaining facial identity...",
           "tags": [
             "diffusion"
+          ]
+        },
+        {
+          "title": "Express4D: Expressive, Friendly, and Extensible 4D Facial Motion Generation Benchmark",
+          "link": "https://arxiv.org/abs/2508.12438v1",
+          "published": "2025-08-17T17:10:13.000Z",
+          "authors": "Yaron Aloni",
+          "summary": "Dynamic facial expression generation from natural language is a crucial task in Computer Graphics, with applications in Animation, Virtual Avatars, and Human-Computer Interaction. However, current generative models suffer from datasets that are either speech-driven or limited ...",
+          "tags": [
+            "audio-driven"
           ]
         }
       ]
