@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T14:18:48.761Z",
+  "updatedAt": "2026-09-22T14:36:26.707Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -113,6 +113,16 @@
       "label": "Generative Video Models",
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
+        {
+          "title": "AVTR-1: Open Stack for Real-Time Interactive Avatars",
+          "link": "https://arxiv.org/abs/2609.22913v1",
+          "published": "2026-09-19T09:45:26.000Z",
+          "authors": "Artem Kravtsov",
+          "summary": "Talking-head and dyadic models now achieve real-time inference, yet fast motion generation alone does not produce an interactive conversation. A live system must synchronize the model's output with speech from an external voice agent, schedule video frames for playback, and ha...",
+          "tags": [
+            "real-time"
+          ]
+        },
         {
           "title": "Decoupled Self-Forcing Distillation for Streaming Talking Head Generation",
           "link": "https://arxiv.org/abs/2609.10317v1",
@@ -229,19 +239,6 @@
           "authors": "Yunfei Liu",
           "summary": "Articulated portrait mesh estimation is fundamental to 3D understanding, avatar generation, and immersive interaction. Existing approaches primarily rely on 3D Morphable Models (3DMMs). However, face-centric models suffer from the \"floating head\" assumption, conflating head po...",
           "tags": []
-        },
-        {
-          "title": "GaussianEmoTalker: Real-Time Emotional Talking Head Synthesis with Audio-Driven and Blendshape-Based 3D Gaussian Splatting",
-          "link": "https://arxiv.org/abs/2607.00959v1",
-          "published": "2026-07-01T13:56:38.000Z",
-          "authors": "Haijie Yang",
-          "summary": "Audio-driven talking head synthesis has achieved impressive progress in lip synchronization and visual quality, yet generating expressive emotional avatars with controllable intensity remains challenging, especially under real-time constraints. In this paper, we present Gaussi...",
-          "tags": [
-            "audio-driven",
-            "gaussian",
-            "lip-sync",
-            "real-time"
-          ]
         }
       ]
     },
