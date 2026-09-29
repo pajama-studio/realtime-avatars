@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T14:50:24.359Z",
+  "updatedAt": "2026-09-29T16:26:14.552Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -247,6 +247,18 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "OneFixer: High-Quality and Consistent One-Step Autoregressive 3DGS Refinement for Driving Scenes",
+          "link": "https://arxiv.org/abs/2609.32175v1",
+          "published": "2026-09-26T02:53:32.000Z",
+          "authors": "Boseong Jeon",
+          "summary": "Autoregressive video diffusion is a promising render-time fixer for 3D Gaussian Splatting (3DGS) in autonomous-driving simulation, but deployment demands high visual quality and temporal consistency at low latency. This is especially hard for one-step causal generation, where ...",
+          "tags": [
+            "diffusion",
+            "gaussian",
+            "real-time"
+          ]
+        },
+        {
           "title": "φ-RIE: From Photorealistic Reconstruction to Interactive Environments",
           "link": "https://arxiv.org/abs/2609.26795v1",
           "published": "2026-09-22T17:59:52.000Z",
@@ -364,18 +376,6 @@
             "diffusion",
             "gaussian",
             "monocular"
-          ]
-        },
-        {
-          "title": "Split and Drive: Dual-Axis Disentanglement for Real-Time Gaussian Head Avatars",
-          "link": "https://arxiv.org/abs/2607.28032v1",
-          "published": "2026-07-30T11:17:25.000Z",
-          "authors": "MD Wahiduzzaman Khan",
-          "summary": "Creating photorealistic animatable head avatars from a single image remains a fundamental challenge in digital human synthesis. While recent 3D Gaussian Splatting methods have achieved promising results, they rely on external tracking pipelines whose latency is excluded from i...",
-          "tags": [
-            "gaussian",
-            "monocular",
-            "real-time"
           ]
         }
       ]
