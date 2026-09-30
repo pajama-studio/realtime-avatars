@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T16:26:14.552Z",
+  "updatedAt": "2026-09-30T16:20:55.491Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -96,16 +96,6 @@
           "tags": [
             "diffusion"
           ]
-        },
-        {
-          "title": "Express4D: Expressive, Friendly, and Extensible 4D Facial Motion Generation Benchmark",
-          "link": "https://arxiv.org/abs/2508.12438v1",
-          "published": "2025-08-17T17:10:13.000Z",
-          "authors": "Yaron Aloni",
-          "summary": "Dynamic facial expression generation from natural language is a crucial task in Computer Graphics, with applications in Animation, Virtual Avatars, and Human-Computer Interaction. However, current generative models suffer from datasets that are either speech-driven or limited ...",
-          "tags": [
-            "audio-driven"
-          ]
         }
       ]
     },
@@ -113,6 +103,17 @@
       "label": "Generative Video Models",
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
+        {
+          "title": "Beyond Lip Sync: Reference-Grounded Oral Refinement for Audio-Driven Portrait Animation",
+          "link": "https://arxiv.org/abs/2609.38019v1",
+          "published": "2026-09-29T17:02:27.000Z",
+          "authors": "Bangxun Tang",
+          "summary": "We present RGOR (Reference-Grounded Oral Refinement), an audio-driven lip-sync framework that renders the mouth of the specific person being dubbed rather than a generic one. Existing lip-sync systems follow the audio closely and keep the face recognizable, yet the mouth they ...",
+          "tags": [
+            "audio-driven",
+            "lip-sync"
+          ]
+        },
         {
           "title": "AVTR-1: Open Stack for Real-Time Interactive Avatars",
           "link": "https://arxiv.org/abs/2609.22913v1",
@@ -231,14 +232,6 @@
             "lip-sync",
             "transformer"
           ]
-        },
-        {
-          "title": "GRAPE: Graduated Routing for Articulated Portrait mesh Estimation",
-          "link": "https://arxiv.org/abs/2607.23657v1",
-          "published": "2026-07-26T13:46:04.000Z",
-          "authors": "Yunfei Liu",
-          "summary": "Articulated portrait mesh estimation is fundamental to 3D understanding, avatar generation, and immersive interaction. Existing approaches primarily rely on 3D Morphable Models (3DMMs). However, face-centric models suffer from the \"floating head\" assumption, conflating head po...",
-          "tags": []
         }
       ]
     },
