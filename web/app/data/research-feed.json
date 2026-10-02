@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-09-30T16:20:55.491Z",
+  "updatedAt": "2026-10-02T16:11:19.187Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
       "label": "MetaHuman / Graphics Pipeline",
       "query": "cat:cs.CV AND (all:metahuman OR (all:realtime AND all:facial AND all:animation) OR (all:facial AND all:retargeting AND all:rig) OR all:blendshape)",
       "items": [
+        {
+          "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
+          "link": "https://arxiv.org/abs/2610.02207v1",
+          "published": "2026-10-01T17:59:58.000Z",
+          "authors": "Ramazan Fazylov",
+          "summary": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity...",
+          "tags": [
+            "gaussian",
+            "real-time"
+          ]
+        },
         {
           "title": "AnyTalk: Speech Animation for Arbitrary Characters Leveraging a Video Generation Model",
           "link": "https://arxiv.org/abs/2608.16143v1",
@@ -85,16 +96,6 @@
           "tags": [
             "audio-driven",
             "lip-sync"
-          ]
-        },
-        {
-          "title": "ID-Consistent, Precise Expression Generation with Blendshape-Guided Diffusion",
-          "link": "https://arxiv.org/abs/2510.04706v1",
-          "published": "2025-10-06T11:20:56.000Z",
-          "authors": "Foivos Paraperas Papantoniou",
-          "summary": "Human-centric generative models designed for AI-driven storytelling must bring together two core capabilities: identity consistency and precise control over human performance. While recent diffusion-based approaches have made significant progress in maintaining facial identity...",
-          "tags": [
-            "diffusion"
           ]
         }
       ]
@@ -240,6 +241,26 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "UGOD: Uncertainty-Guided Opacity and Dropout for Sparse-View 3D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2609.39089v1",
+          "published": "2026-09-30T06:27:05.000Z",
+          "authors": "Zhihao Guo",
+          "summary": "Sparse-view 3D Gaussian Splatting is prone to overfitting because limited observations leave many Gaussian primitives weakly constrained, yet their contributions are still accumulated through alpha blending. Without uncertainty estimation, the renderer cannot distinguish unrel...",
+          "tags": [
+            "gaussian"
+          ]
+        },
+        {
+          "title": "Gaussian Stippling: Efficient Sorting-Free 3D Gaussian Rendering through Hybrid Sampling and Spatiotemporal Reconstruction",
+          "link": "https://arxiv.org/abs/2609.38488v1",
+          "published": "2026-09-29T20:15:59.000Z",
+          "authors": "Zijian Huang",
+          "summary": "Conventional 3D Gaussian Splatting (3DGS) requires depth sorting and ordered alpha blending to correctly render overlapping Gaussian primitives. Stochastic transparency enables sorting-free rendering by replacing fractional alpha contributions with discrete stochastic visibili...",
+          "tags": [
+            "gaussian"
+          ]
+        },
+        {
           "title": "OneFixer: High-Quality and Consistent One-Step Autoregressive 3DGS Refinement for Driving Scenes",
           "link": "https://arxiv.org/abs/2609.32175v1",
           "published": "2026-09-26T02:53:32.000Z",
@@ -257,6 +278,16 @@
           "published": "2026-09-22T17:59:52.000Z",
           "authors": "Runyi Yang",
           "summary": "3D Gaussian Splatting (3DGS) can reconstruct a captured scene photorealistically, but the resulting representation does not by itself support physical interaction. Robot simulation instead requires object-level change, \\textit{i.e.}, objects must move independently, make conta...",
+          "tags": [
+            "gaussian"
+          ]
+        },
+        {
+          "title": "Geometry beneath the Waves: Dense Priors for Sparse-View Underwater 3D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2609.18737v2",
+          "published": "2026-09-16T14:32:58.000Z",
+          "authors": "Harvey Caldeira",
+          "summary": "Underwater 3D reconstruction remains challenging under sparse views, where scattering, absorption, and suspended particles degrade feature correspondences and geometric estimation. Although feed-forward geometry foundation models offer an alternative to conventional Structure-...",
           "tags": [
             "gaussian"
           ]
@@ -337,38 +368,6 @@
             "diffusion",
             "gaussian",
             "multi-view"
-          ]
-        },
-        {
-          "title": "Swimm3R: Splatting with Medium-aware SfM for Underwater 3D Reconstruction",
-          "link": "https://arxiv.org/abs/2608.00950v1",
-          "published": "2026-08-02T03:01:15.000Z",
-          "authors": "Minseong Kweon",
-          "summary": "We propose Swimm3R, a unified framework that combines medium-aware structure-from-motion (SfM) with Underwater Beta Splatting to address scattering- and attenuation-induced failures in underwater 3D reconstruction. Swimm3R distills in-air geometric priors into a feed-forward b...",
-          "tags": [
-            "gaussian"
-          ]
-        },
-        {
-          "title": "OASIS: Occlusion-aware Single-image Hand Avatar Reconstruction via 3D Gaussian Splatting",
-          "link": "https://arxiv.org/abs/2607.29633v1",
-          "published": "2026-07-31T17:09:46.000Z",
-          "authors": "Zhisheng Han",
-          "summary": "Single-image 3D hand avatar reconstruction is fundamentally ill-posed and particularly challenging due to limited visual evidence under severe self-occlusion and the complex pose-dependent deformation of highly articulated hands. Existing methods predominantly rely on implicit...",
-          "tags": [
-            "gaussian"
-          ]
-        },
-        {
-          "title": "S-Avatar: Diffusion-Guided Gaussian Head Avatars from a Single Image",
-          "link": "https://arxiv.org/abs/2607.28164v1",
-          "published": "2026-07-30T13:04:03.000Z",
-          "authors": "Hail Song",
-          "summary": "We propose S-Avatar, a novel method for generating photorealistic 3D head avatars from a single image using a diffusion-guided 3D model generation module and strategies for animating 3D Gaussian Splatting (3DGS). While single-image head avatar reconstruction is crucial for lif...",
-          "tags": [
-            "diffusion",
-            "gaussian",
-            "monocular"
           ]
         }
       ]
