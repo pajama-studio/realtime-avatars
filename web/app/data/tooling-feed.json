@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T16:11:22.235Z",
+  "updatedAt": "2026-10-03T14:38:31.721Z",
   "source": "GitHub Search",
   "queries": {
     "metahuman": {
@@ -182,7 +182,7 @@
           "name": "graphdeco-inria/gaussian-splatting",
           "link": "https://github.com/graphdeco-inria/gaussian-splatting",
           "description": "Original reference implementation of \"3D Gaussian Splatting for Real-Time Radiance Field Rendering\"",
-          "stars": 24067,
+          "stars": 24074,
           "pushedAt": "2025-10-17T14:28:15.000Z",
           "language": "Python"
         },
@@ -190,7 +190,7 @@
           "name": "playcanvas/supersplat",
           "link": "https://github.com/playcanvas/supersplat",
           "description": "3D Gaussian Splat Editor",
-          "stars": 10292,
+          "stars": 10295,
           "pushedAt": "2026-10-02T13:34:28.000Z",
           "language": "TypeScript"
         },
@@ -198,7 +198,7 @@
           "name": "MrNeRF/awesome-3D-gaussian-splatting",
           "link": "https://github.com/MrNeRF/awesome-3D-gaussian-splatting",
           "description": "Curated list of papers and resources focused on 3D Gaussian Splatting, intended to keep pace with the anticipated surge of research in the coming months.",
-          "stars": 8914,
+          "stars": 8917,
           "pushedAt": "2026-09-24T19:24:24.000Z",
           "language": "Python"
         },
@@ -206,7 +206,7 @@
           "name": "nerfstudio-project/gsplat",
           "link": "https://github.com/nerfstudio-project/gsplat",
           "description": "CUDA accelerated rasterization of gaussian splatting",
-          "stars": 5746,
+          "stars": 5748,
           "pushedAt": "2026-09-19T07:16:19.000Z",
           "language": "Python"
         },
@@ -230,16 +230,16 @@
           "name": "MrNeRF/LichtFeld-Studio",
           "link": "https://github.com/MrNeRF/LichtFeld-Studio",
           "description": "Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application.",
-          "stars": 3795,
-          "pushedAt": "2026-10-02T15:39:31.000Z",
+          "stars": 3804,
+          "pushedAt": "2026-10-03T14:30:16.000Z",
           "language": "C++"
         },
         {
           "name": "sparkjsdev/spark",
           "link": "https://github.com/sparkjsdev/spark",
           "description": ":sparkles: An advanced 3D Gaussian Splatting renderer for THREE.js",
-          "stars": 3677,
-          "pushedAt": "2026-10-01T16:29:44.000Z",
+          "stars": 3678,
+          "pushedAt": "2026-10-02T19:08:35.000Z",
           "language": "TypeScript"
         },
         {
