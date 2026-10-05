@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T16:11:19.187Z",
+  "updatedAt": "2026-10-05T19:10:43.563Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -241,6 +241,27 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "ManifoldSplat: Language-Guided Semantic Shape Editing of 3D Gaussian Head Avatars",
+          "link": "https://arxiv.org/abs/2610.03599v1",
+          "published": "2026-10-02T17:04:22.000Z",
+          "authors": "Antonio Canela",
+          "summary": "High-fidelity 3D head avatars have reached near-photorealistic quality. While recent methods enable text-driven manipulation, they struggle to provide fine-grained localized control, often entangling features or lacking geometric consistency. Modifying geometry through natural...",
+          "tags": [
+            "diffusion",
+            "gaussian"
+          ]
+        },
+        {
+          "title": "SCION: Scene Composition with Instanced Neural Primitives",
+          "link": "https://arxiv.org/abs/2610.02322v1",
+          "published": "2026-10-01T18:00:06.000Z",
+          "authors": "William Koch",
+          "summary": "Real-world scenes are compositional: bricks, blades of grass, pebbles, and tree leaves recur across human-built and natural environments. Existing neural scene representations model these elements independently. Most 3D Gaussian Splatting and follow-up abstraction and compress...",
+          "tags": [
+            "gaussian"
+          ]
+        },
+        {
           "title": "UGOD: Uncertainty-Guided Opacity and Dropout for Sparse-View 3D Gaussian Splatting",
           "link": "https://arxiv.org/abs/2609.39089v1",
           "published": "2026-09-30T06:27:05.000Z",
@@ -345,29 +366,6 @@
           "tags": [
             "gaussian",
             "monocular"
-          ]
-        },
-        {
-          "title": "Multi-View Face and Gesture Animation with Dynamic Gaussians",
-          "link": "https://arxiv.org/abs/2608.04722v1",
-          "published": "2026-08-05T11:43:21.000Z",
-          "authors": "Alireza Javanmardi",
-          "summary": "Creating photorealistic 3D human avatars with realistic upper-body motion remains challenging. Existing approaches either focus on the head and overlook hand gestures, or reconstruct the full body but fail to preserve fine-grained facial fidelity and hand pose accuracy. As a r...",
-          "tags": [
-            "gaussian",
-            "multi-view"
-          ]
-        },
-        {
-          "title": "GaussianSelector: Lightweight Human-Guided Object Selection in 3D Gaussian Splatting with Graph Optimization",
-          "link": "https://arxiv.org/abs/2608.01492v1",
-          "published": "2026-08-02T20:51:09.000Z",
-          "authors": "Baihan Yang",
-          "summary": "Selecting a complete 3D object from a reconstructed scene with minimal user effort is essential for practical scene editing and embodied interaction. Existing 3DGS-based methods either retrain the Gaussian representation to embed per-object labels, or build dense multi-view SA...",
-          "tags": [
-            "diffusion",
-            "gaussian",
-            "multi-view"
           ]
         }
       ]
