@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T19:10:43.563Z",
+  "updatedAt": "2026-10-06T16:38:02.535Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -105,6 +105,28 @@
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
         {
+          "title": "Talk Like You: Imitating How You Speak in Real-Time Talking Head Generation",
+          "link": "https://arxiv.org/abs/2610.06658v1",
+          "published": "2026-10-05T16:35:12.000Z",
+          "authors": "Baiqin Wang",
+          "summary": "In daily life, each person exhibits unique speaking habits, leading to subtle yet consistent lip-shape variations even when pronouncing the same word. Although recent talking head generation methods have achieved impressive visual fidelity and lip synchronization, they largely...",
+          "tags": [
+            "lip-sync",
+            "real-time"
+          ]
+        },
+        {
+          "title": "PixReenact: Pixel-Conditioned Causal Video Diffusion for Streaming Head-Avatar Reenactment",
+          "link": "https://arxiv.org/abs/2610.05233v1",
+          "published": "2026-10-04T13:57:42.000Z",
+          "authors": "Gavriel Habib",
+          "summary": "Streaming head-avatar reenactment aims to animate a reference image according to a live driving video, requiring robust motion transfer, long-term identity stability, and low latency. Existing methods often rely on specialized identity or motion representations, which can disc...",
+          "tags": [
+            "diffusion",
+            "real-time"
+          ]
+        },
+        {
           "title": "Beyond Lip Sync: Reference-Grounded Oral Refinement for Audio-Driven Portrait Animation",
           "link": "https://arxiv.org/abs/2609.38019v1",
           "published": "2026-09-29T17:02:27.000Z",
@@ -209,30 +231,6 @@
           "authors": "MD Wahiduzzaman Khan",
           "summary": "Modern face reenactment systems achieve impressive pose and expression transfer using geometry-driven representations. However, they largely ignore tongue dynamics, leading to anatomically inconsistent mouth interiors during speech and expressive motions. We introduce the firs...",
           "tags": []
-        },
-        {
-          "title": "LeapTalk: Breaking the Latency-Quality Trade-off in Talking Head Generation",
-          "link": "https://arxiv.org/abs/2608.00079v1",
-          "published": "2026-07-29T14:44:57.000Z",
-          "authors": "Rongxiang Zhang",
-          "summary": "Long-form and real-time talking-head generation remains challenging due to a latency-quality trade-off: inefficient multi-step diffusion prohibits streaming generation, whereas real-time autoregressive approaches suffer from error accumulation and identity drift. To address th...",
-          "tags": [
-            "diffusion",
-            "real-time"
-          ]
-        },
-        {
-          "title": "STEER: Steerable Dyadic Head Avatars",
-          "link": "https://arxiv.org/abs/2607.23840v1",
-          "published": "2026-07-26T20:53:41.000Z",
-          "authors": "Kartik Teotia",
-          "summary": "Facial movement and expression are central to face-to-face communication, conveying turn-taking, attention, agreement, and engagement alongside speech. While speech-driven facial animation has made strong progress in lip synchronization and audio-conditioned motion generation,...",
-          "tags": [
-            "audio-driven",
-            "diffusion",
-            "lip-sync",
-            "transformer"
-          ]
         }
       ]
     },
@@ -253,7 +251,7 @@
         },
         {
           "title": "SCION: Scene Composition with Instanced Neural Primitives",
-          "link": "https://arxiv.org/abs/2610.02322v1",
+          "link": "https://arxiv.org/abs/2610.02322v2",
           "published": "2026-10-01T18:00:06.000Z",
           "authors": "William Koch",
           "summary": "Real-world scenes are compositional: bricks, blades of grass, pebbles, and tree leaves recur across human-built and natural environments. Existing neural scene representations model these elements independently. Most 3D Gaussian Splatting and follow-up abstraction and compress...",
