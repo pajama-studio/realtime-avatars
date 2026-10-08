@@ -1,11 +1,19 @@
 {
-  "updatedAt": "2026-10-07T17:22:15.338Z",
+  "updatedAt": "2026-10-08T17:19:19.974Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
       "label": "MetaHuman / Graphics Pipeline",
       "query": "cat:cs.CV AND (all:metahuman OR (all:realtime AND all:facial AND all:animation) OR (all:facial AND all:retargeting AND all:rig) OR all:blendshape)",
       "items": [
+        {
+          "title": "emg2face: Expressive Facial Animation with High-Density Surface EMG",
+          "link": "https://arxiv.org/abs/2610.09304v1",
+          "published": "2026-10-07T02:03:05.000Z",
+          "authors": "Ganidhu Abey",
+          "summary": "Facial movements convey subtle and important information that is critical for human social communication. Optical methods for face capture are difficult or impossible to use when the face is occluded by head-mounted devices (HMDs), such as VR headsets. Even with a clear line o...",
+          "tags": []
+        },
         {
           "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
           "link": "https://arxiv.org/abs/2610.02207v1",
@@ -86,17 +94,6 @@
           "authors": "Wenchao Ma",
           "summary": "In this paper, we present RigAnyFace (RAF), a scalable neural auto-rigging framework for facial meshes of diverse topologies, including those with multiple disconnected components. RAF deforms a static neutral facial mesh into industry-standard FACS poses to form an expressive...",
           "tags": []
-        },
-        {
-          "title": "Learning Disentangled Speech- and Expression-Driven Blendshapes for 3D Talking Face Animation",
-          "link": "https://arxiv.org/abs/2510.25234v1",
-          "published": "2025-10-29T07:29:21.000Z",
-          "authors": "Yuxiang Mao",
-          "summary": "Expressions are fundamental to conveying human emotions. With the rapid advancement of AI-generated content (AIGC), realistic and expressive 3D facial animation has become increasingly crucial. Despite recent progress in speech-driven lip-sync for talking-face animation, gener...",
-          "tags": [
-            "audio-driven",
-            "lip-sync"
-          ]
         }
       ]
     },
@@ -104,6 +101,16 @@
       "label": "Generative Video Models",
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
+        {
+          "title": "PVSync: A Unified Lip-Sync Expert for Timing and Articulation",
+          "link": "https://arxiv.org/abs/2610.09223v1",
+          "published": "2026-10-06T23:36:54.000Z",
+          "authors": "Kevin Stephen",
+          "summary": "Lip movements can match the timing of speech without matching the spoken sounds. We introduce PVSync, a unified model for audio-visual offset estimation and phoneme-level articulation scoring. PVSync combines window-level contrastive learning for synchronisation with a phoneme...",
+          "tags": [
+            "lip-sync"
+          ]
+        },
         {
           "title": "Talk Like You: Imitating How You Speak in Real-Time Talking Head Generation",
           "link": "https://arxiv.org/abs/2610.06658v1",
@@ -223,14 +230,6 @@
             "gaussian",
             "monocular"
           ]
-        },
-        {
-          "title": "TongueReenact: Geometry-Anchored Tongue Synthesis for Face Reenactment",
-          "link": "https://arxiv.org/abs/2607.28039v1",
-          "published": "2026-07-30T11:23:36.000Z",
-          "authors": "MD Wahiduzzaman Khan",
-          "summary": "Modern face reenactment systems achieve impressive pose and expression transfer using geometry-driven representations. However, they largely ignore tongue dynamics, leading to anatomically inconsistent mouth interiors during speech and expressive motions. We introduce the firs...",
-          "tags": []
         }
       ]
     },
@@ -238,6 +237,16 @@
       "label": "Gaussian Splatting (3DGS)",
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
+        {
+          "title": "DeltaSplat: Iterative Gaussian Refinement for Pose-Free Feed-Forward 3D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2610.09853v1",
+          "published": "2026-10-07T11:11:22.000Z",
+          "authors": "Chanung Park",
+          "summary": "Pose-free feed-forward 3D Gaussian Splatting (3DGS) reconstructs a scene from sparse, unposed images in a single network pass, removing the need for camera calibration and per-scene optimization. However, camera estimation errors propagate into the predicted Gaussians and comp...",
+          "tags": [
+            "gaussian"
+          ]
+        },
         {
           "title": "DensiTok: Making Feed-Forward 3D Gaussian Splatting See More Views Than It Is Given",
           "link": "https://arxiv.org/abs/2610.07958v1",
@@ -350,19 +359,6 @@
           "summary": "When does 3D Gaussian Splatting (3DGS) recover the true scene surface rather than just overfitting view-dependent appearance? We answer this by developing a mathematical framework based on a first-hit rendering abstraction that cleanly isolates geometry from appearance. We pro...",
           "tags": [
             "gaussian"
-          ]
-        },
-        {
-          "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
-          "link": "https://arxiv.org/abs/2608.20335v1",
-          "published": "2026-08-20T17:59:53.000Z",
-          "authors": "Yudong Jin",
-          "summary": "We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating reconstruction-grade multiview-consistent videos and lifting them into 4D Gaussian Splatting (4DGS). Existing camera-controlled video diffusion models synthesize pl...",
-          "tags": [
-            "diffusion",
-            "gaussian",
-            "monocular",
-            "multi-view"
           ]
         }
       ]
