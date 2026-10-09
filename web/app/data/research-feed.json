@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T17:19:19.974Z",
+  "updatedAt": "2026-10-09T16:55:05.274Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -101,6 +101,19 @@
       "label": "Generative Video Models",
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
+        {
+          "title": "No Distillation Needed: Single-Pass Real-Time Talking Heads via Acausal Noise Shaping",
+          "link": "https://arxiv.org/abs/2610.11070v1",
+          "published": "2026-10-08T01:30:35.000Z",
+          "authors": "Yu Han",
+          "summary": "Audio-driven facial animation underpins real-time avatars, telepresence, and embodied virtual agents. And it must run online: each frame emitted from audio observed up to the current time, at interactive rates. Recent progress is dominated by diffusion models, which need many ...",
+          "tags": [
+            "audio-driven",
+            "diffusion",
+            "real-time",
+            "telepresence"
+          ]
+        },
         {
           "title": "PVSync: A Unified Lip-Sync Expert for Timing and Articulation",
           "link": "https://arxiv.org/abs/2610.09223v1",
@@ -217,18 +230,6 @@
             "audio-driven",
             "diffusion",
             "real-time"
-          ]
-        },
-        {
-          "title": "S-Avatar: Diffusion-Guided Gaussian Head Avatars from a Single Image",
-          "link": "https://arxiv.org/abs/2607.28164v1",
-          "published": "2026-07-30T13:04:03.000Z",
-          "authors": "Hail Song",
-          "summary": "We propose S-Avatar, a novel method for generating photorealistic 3D head avatars from a single image using a diffusion-guided 3D model generation module and strategies for animating 3D Gaussian Splatting (3DGS). While single-image head avatar reconstruction is crucial for lif...",
-          "tags": [
-            "diffusion",
-            "gaussian",
-            "monocular"
           ]
         }
       ]
