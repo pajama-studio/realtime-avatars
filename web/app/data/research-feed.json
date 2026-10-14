@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T19:44:02.604Z",
+  "updatedAt": "2026-10-14T14:58:29.247Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -102,6 +102,14 @@
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
         {
+          "title": "Physics-Aware Deepfake Detection via Distance-Speech Consistency",
+          "link": "https://arxiv.org/abs/2610.18485v1",
+          "published": "2026-10-13T14:44:28.000Z",
+          "authors": "Kyeongrae Kim",
+          "summary": "Recent progress in generative models has made talking-head deepfakes highly realistic and easy to create, jeopardizing public trust. However, most audio-visual deepfake detectors rely on lip-speech synchronization and are designed for static, frontal videos, limiting their rel...",
+          "tags": []
+        },
+        {
           "title": "No Distillation Needed: Single-Pass Real-Time Talking Heads via Acausal Noise Shaping",
           "link": "https://arxiv.org/abs/2610.11070v1",
           "published": "2026-10-08T01:30:35.000Z",
@@ -196,40 +204,6 @@
           "tags": [
             "audio-driven",
             "lip-sync"
-          ]
-        },
-        {
-          "title": "Xemo-Talker: Unlock Emotions Explicitly for Audio-Driven Talking Portrait Synthesis",
-          "link": "https://arxiv.org/abs/2608.14700v1",
-          "published": "2026-08-10T11:17:42.000Z",
-          "authors": "Chaolong Yang",
-          "summary": "Precise emotion control in audio-driven talking heads remains a challenge due to the reliance on implicit emotion regulation in existing systems, which often leads to indirect and insufficient control. Additionally, training with explicit emotion-related losses across the enti...",
-          "tags": [
-            "audio-driven",
-            "diffusion"
-          ]
-        },
-        {
-          "title": "SubtleTalk: Generating Controllable Weakly-correlated Facial Dynamics for 3D Talking Heads via Residual Flow Matching",
-          "link": "https://arxiv.org/abs/2608.06408v1",
-          "published": "2026-08-03T11:28:19.000Z",
-          "authors": "Chenyang Ding",
-          "summary": "Audio-driven 3D facial animation aims to synthesize realistic and temporally coherent motions from speech. Despite notable progress in lip synchronization, weakly correlated dynamics, including eyebrow movements, eye blinks, and head motion, which are essential to photorealist...",
-          "tags": [
-            "audio-driven",
-            "lip-sync"
-          ]
-        },
-        {
-          "title": "Proxy Avatar Meets Low-Rank Caching: Real-Time One-Shot Emotion-Controllable Portrait Animation",
-          "link": "https://arxiv.org/abs/2608.01978v1",
-          "published": "2026-08-03T09:41:59.000Z",
-          "authors": "Haijie Yang",
-          "summary": "Audio-driven portrait animation has advanced rapidly with diffusion-based generative models, yet real-time one-shot generation with expressive emotion control remains challenging. Existing methods often suffer from insufficient emotion-aware motion priors and expensive appeara...",
-          "tags": [
-            "audio-driven",
-            "diffusion",
-            "real-time"
           ]
         }
       ]
