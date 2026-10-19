@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T14:58:29.247Z",
+  "updatedAt": "2026-10-19T16:53:37.949Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -102,6 +102,16 @@
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
         {
+          "title": "Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars",
+          "link": "https://arxiv.org/abs/2610.23772v1",
+          "published": "2026-10-16T17:08:33.000Z",
+          "authors": "Simon Giebenhain",
+          "summary": "Video diffusion models (VDMs) trained on internet-scale data encode a rich prior on appearance, motion, and physics that is difficult to replicate with explicit 3D rendering and costly 3D data capture. We introduce Video Diffusion Avatars (VDAs), a method that creates photo-re...",
+          "tags": [
+            "diffusion"
+          ]
+        },
+        {
           "title": "Physics-Aware Deepfake Detection via Distance-Speech Consistency",
           "link": "https://arxiv.org/abs/2610.18485v1",
           "published": "2026-10-13T14:44:28.000Z",
@@ -193,17 +203,6 @@
           "summary": "We present AnyTalk, a novel method for generating 3D speech animations for arbitrary characters without requiring any animation data. While existing audio-driven 3D speech animation methods rely on character-specific training data or laborious rigging/re-meshing, AnyTalk circu...",
           "tags": [
             "audio-driven"
-          ]
-        },
-        {
-          "title": "CETalk: Continuous Valence-Arousal Control for Audio-Driven 3D Talking Head Generation",
-          "link": "https://arxiv.org/abs/2608.15110v1",
-          "published": "2026-08-15T08:22:50.000Z",
-          "authors": "Peng Jia",
-          "summary": "Emotional 3D talking head generation aims to synthesize expressive facial animations with accurate lip synchronization. However, existing methods often rely on discrete emotion categories, which fail to capture the continuous evolution of affect. They also overlook the tempora...",
-          "tags": [
-            "audio-driven",
-            "lip-sync"
           ]
         }
       ]
