@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T16:53:37.949Z",
+  "updatedAt": "2026-10-20T14:53:21.275Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -212,6 +212,17 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "HumanSkill-4D: Training-Free Language Querying of Animatable Gaussian Avatars in Space and Time",
+          "link": "https://arxiv.org/abs/2610.24452v1",
+          "published": "2026-10-17T04:43:01.000Z",
+          "authors": "unsu Kim",
+          "summary": "We introduce avatar referring segmentation, which selects regions of animatable Gaussian avatars from language queries. A query can also specify a pose or motion to select matching intervals. This lets users interact with avatars for local editing and motion inspection. Howeve...",
+          "tags": [
+            "diffusion",
+            "gaussian"
+          ]
+        },
+        {
           "title": "Make It Flow: Animating Water in 3D Gaussian Splatting Scenes",
           "link": "https://arxiv.org/abs/2610.13860v1",
           "published": "2026-10-09T17:08:02.000Z",
@@ -322,17 +333,6 @@
           "authors": "Yuetong Wang",
           "summary": "Sparse-view 3D scene reconstruction with 3D Gaussian Splatting (3DGS) is inherently underconstrained. Plausible renderings can also coexist with erroneous Gaussian geometry, as errors in positions or depths may be concealed by opacity, scale, and appearance; we term this failu...",
           "tags": [
-            "gaussian"
-          ]
-        },
-        {
-          "title": "From Explicit References to Scene Manifolds: Distributional Fidelity and Realism for Radiance Field Quality Assessment",
-          "link": "https://arxiv.org/abs/2609.07346v1",
-          "published": "2026-09-07T11:09:30.000Z",
-          "authors": "Saeed Mahmoudpour",
-          "summary": "Radiance field representations such as 3D Gaussian Splatting (3DGS) enable high-quality novel view synthesis but can introduce complex, view-dependent artifacts from reconstruction, rendering, and compression. Reliable perceptual quality assessment (QA) is thus essential for e...",
-          "tags": [
-            "compression",
             "gaussian"
           ]
         }
