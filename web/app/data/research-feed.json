@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T14:53:21.275Z",
+  "updatedAt": "2026-10-21T14:59:58.615Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -213,13 +213,25 @@
       "items": [
         {
           "title": "HumanSkill-4D: Training-Free Language Querying of Animatable Gaussian Avatars in Space and Time",
-          "link": "https://arxiv.org/abs/2610.24452v1",
+          "link": "https://arxiv.org/abs/2610.24452v2",
           "published": "2026-10-17T04:43:01.000Z",
-          "authors": "unsu Kim",
+          "authors": "Junsu Kim",
           "summary": "We introduce avatar referring segmentation, which selects regions of animatable Gaussian avatars from language queries. A query can also specify a pose or motion to select matching intervals. This lets users interact with avatars for local editing and motion inspection. Howeve...",
           "tags": [
             "diffusion",
             "gaussian"
+          ]
+        },
+        {
+          "title": "EGGHead: Efficient Generalizable Gaussian Heads from a Single Image",
+          "link": "https://arxiv.org/abs/2610.26898v1",
+          "published": "2026-10-16T19:08:10.000Z",
+          "authors": "Pilseo Park",
+          "summary": "Creating photorealistic human heads typically involves trade-offs between representation power, efficiency, and generalizability. Traditional mesh-based solutions relying on 3DMMs generally sacrifice representation power but are efficient to render. On the other hand, NeRF-bas...",
+          "tags": [
+            "diffusion",
+            "gaussian",
+            "monocular"
           ]
         },
         {
@@ -322,16 +334,6 @@
           "published": "2026-09-16T14:32:58.000Z",
           "authors": "Harvey Caldeira",
           "summary": "Underwater 3D reconstruction remains challenging under sparse views, where scattering, absorption, and suspended particles degrade feature correspondences and geometric estimation. Although feed-forward geometry foundation models offer an alternative to conventional Structure-...",
-          "tags": [
-            "gaussian"
-          ]
-        },
-        {
-          "title": "Bi-FlowGS: Bridging Generative View Completion and Gaussian Geometry through Bidirectional Flow Co-Refinement",
-          "link": "https://arxiv.org/abs/2609.17039v1",
-          "published": "2026-09-15T11:47:35.000Z",
-          "authors": "Yuetong Wang",
-          "summary": "Sparse-view 3D scene reconstruction with 3D Gaussian Splatting (3DGS) is inherently underconstrained. Plausible renderings can also coexist with erroneous Gaussian geometry, as errors in positions or depths may be concealed by opacity, scale, and appearance; we term this failu...",
           "tags": [
             "gaussian"
           ]
