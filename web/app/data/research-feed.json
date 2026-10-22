@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T14:59:58.615Z",
+  "updatedAt": "2026-10-22T15:00:04.841Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -212,6 +212,16 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "AOV-GS: Active Open-Vocabulary Semantic Mapping with 3D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2610.29374v1",
+          "published": "2026-10-21T08:02:14.000Z",
+          "authors": "Rodion Shkokov",
+          "summary": "Robots deployed in human-centered environments need maps that support both geometric navigation and open-vocabulary semantic queries beyond a fixed label set. A key challenge is enriching such maps with semantic information without relying on manually annotated segmentation ma...",
+          "tags": [
+            "gaussian"
+          ]
+        },
+        {
           "title": "HumanSkill-4D: Training-Free Language Querying of Animatable Gaussian Avatars in Space and Time",
           "link": "https://arxiv.org/abs/2610.24452v2",
           "published": "2026-10-17T04:43:01.000Z",
@@ -324,16 +334,6 @@
           "published": "2026-09-22T17:59:52.000Z",
           "authors": "Runyi Yang",
           "summary": "3D Gaussian Splatting (3DGS) can reconstruct a captured scene photorealistically, but the resulting representation does not by itself support physical interaction. Robot simulation instead requires object-level change, \\textit{i.e.}, objects must move independently, make conta...",
-          "tags": [
-            "gaussian"
-          ]
-        },
-        {
-          "title": "Geometry beneath the Waves: Dense Priors for Sparse-View Underwater 3D Gaussian Splatting",
-          "link": "https://arxiv.org/abs/2609.18737v2",
-          "published": "2026-09-16T14:32:58.000Z",
-          "authors": "Harvey Caldeira",
-          "summary": "Underwater 3D reconstruction remains challenging under sparse views, where scattering, absorption, and suspended particles degrade feature correspondences and geometric estimation. Although feed-forward geometry foundation models offer an alternative to conventional Structure-...",
           "tags": [
             "gaussian"
           ]
