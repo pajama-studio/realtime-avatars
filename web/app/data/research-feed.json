@@ -1,11 +1,19 @@
 {
-  "updatedAt": "2026-10-22T15:00:04.841Z",
+  "updatedAt": "2026-10-27T15:48:42.683Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
       "label": "MetaHuman / Graphics Pipeline",
       "query": "cat:cs.CV AND (all:metahuman OR (all:realtime AND all:facial AND all:animation) OR (all:facial AND all:retargeting AND all:rig) OR all:blendshape)",
       "items": [
+        {
+          "title": "Blendshape Generation for Models with Disconnected Parts: Adding ARKit/MediaPipe Blendshapes to Anime-Style Character Models",
+          "link": "https://arxiv.org/abs/2610.35076v1",
+          "published": "2026-10-26T09:20:41.000Z",
+          "authors": "Pramook Khungurn",
+          "summary": "Blendshape generation for 3D models has been extensively researched, but very few works address generating blendshapes for models with multiple disconnected parts. We present a case study of generating fixed facial expression blendshapes for commercial anime-style 3D character...",
+          "tags": []
+        },
         {
           "title": "emg2face: Expressive Facial Animation with High-Density Surface EMG",
           "link": "https://arxiv.org/abs/2610.09304v1",
@@ -102,6 +110,14 @@
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
         {
+          "title": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
+          "link": "https://arxiv.org/abs/2610.33413v1",
+          "published": "2026-10-24T03:01:21.000Z",
+          "authors": "Yuesheng Huang",
+          "summary": "Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making video-level classification insufficient for forensic analysis. Existing audio-visual deepfake benchmarks largely focus on short talking-head clips, while long-fo...",
+          "tags": []
+        },
+        {
           "title": "Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars",
           "link": "https://arxiv.org/abs/2610.23772v1",
           "published": "2026-10-16T17:08:33.000Z",
@@ -194,16 +210,6 @@
           "tags": [
             "diffusion"
           ]
-        },
-        {
-          "title": "AnyTalk: Speech Animation for Arbitrary Characters Leveraging a Video Generation Model",
-          "link": "https://arxiv.org/abs/2608.16143v1",
-          "published": "2026-08-17T05:53:42.000Z",
-          "authors": "Kwan Yun",
-          "summary": "We present AnyTalk, a novel method for generating 3D speech animations for arbitrary characters without requiring any animation data. While existing audio-driven 3D speech animation methods rely on character-specific training data or laborious rigging/re-meshing, AnyTalk circu...",
-          "tags": [
-            "audio-driven"
-          ]
         }
       ]
     },
@@ -211,6 +217,17 @@
       "label": "Gaussian Splatting (3DGS)",
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
+        {
+          "title": "Complexity-guided Regularization for Generalizable Human Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2610.35152v1",
+          "published": "2026-10-26T10:18:03.000Z",
+          "authors": "Gun Ryu",
+          "summary": "Recent studies on generalizable human Gaussian splatting have achieved the notable progress in synthesizing novel views of unseen human subjects from multi-view images. Despite this progress, existing methods still struggle to represent fine-grained details of human subjects, ...",
+          "tags": [
+            "gaussian",
+            "multi-view"
+          ]
+        },
         {
           "title": "AOV-GS: Active Open-Vocabulary Semantic Mapping with 3D Gaussian Splatting",
           "link": "https://arxiv.org/abs/2610.29374v1",
@@ -326,16 +343,6 @@
             "diffusion",
             "gaussian",
             "real-time"
-          ]
-        },
-        {
-          "title": "φ-RIE: From Photorealistic Reconstruction to Interactive Environments",
-          "link": "https://arxiv.org/abs/2609.26795v1",
-          "published": "2026-09-22T17:59:52.000Z",
-          "authors": "Runyi Yang",
-          "summary": "3D Gaussian Splatting (3DGS) can reconstruct a captured scene photorealistically, but the resulting representation does not by itself support physical interaction. Robot simulation instead requires object-level change, \\textit{i.e.}, objects must move independently, make conta...",
-          "tags": [
-            "gaussian"
           ]
         }
       ]
