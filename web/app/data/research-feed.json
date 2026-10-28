@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T15:48:42.683Z",
+  "updatedAt": "2026-10-28T16:32:03.275Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -218,6 +218,36 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "CTBakeGS: training-free baking of photorealistic CT volume renderings into 3D Gaussian splats",
+          "link": "https://arxiv.org/abs/2610.37406v1",
+          "published": "2026-10-27T15:21:01.000Z",
+          "authors": "Haruki Fukuda",
+          "summary": "Photorealistic volume rendering of computed tomography (CT) may convey anatomy intuitively, but it needs the CT data, dedicated software and a powerful graphics processor. Three-dimensional Gaussian splatting (3DGS) displays photorealistic scenes in real time on less powerful ...",
+          "tags": [
+            "gaussian"
+          ]
+        },
+        {
+          "title": "GraftRay: Physically Based Mesh Insertion into Gaussian Splatting Scenes via Path Tracing",
+          "link": "https://arxiv.org/abs/2610.37036v1",
+          "published": "2026-10-27T11:11:48.000Z",
+          "authors": "Jinxin Ai",
+          "summary": "Inserting virtual objects into scenes reconstructed via 2D or 3D Gaussian Splatting (2DGS/3DGS) is a key capability for content creation, AR, and synthetic data generation. However, realistic insertion requires the object to be seamlessly lit by the scene and, conversely, to c...",
+          "tags": [
+            "gaussian"
+          ]
+        },
+        {
+          "title": "PrinGS: Privacy Preservation in Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2610.36168v1",
+          "published": "2026-10-26T19:02:22.000Z",
+          "authors": "Gaurav Behera",
+          "summary": "3D Gaussian Splatting (3DGS) has rapidly become the preferred representation for high-fidelity novel view synthesis and 3D scene reconstruction. However, the learned representation encodes sensitive visual information including human faces, license plates, documents, and compu...",
+          "tags": [
+            "gaussian"
+          ]
+        },
+        {
           "title": "Complexity-guided Regularization for Generalizable Human Gaussian Splatting",
           "link": "https://arxiv.org/abs/2610.35152v1",
           "published": "2026-10-26T10:18:03.000Z",
@@ -311,38 +341,6 @@
           "summary": "Real-world scenes are compositional: bricks, blades of grass, pebbles, and tree leaves recur across human-built and natural environments. Existing neural scene representations model these elements independently. Most 3D Gaussian Splatting and follow-up abstraction and compress...",
           "tags": [
             "gaussian"
-          ]
-        },
-        {
-          "title": "UGOD: Uncertainty-Guided Opacity and Dropout for Sparse-View 3D Gaussian Splatting",
-          "link": "https://arxiv.org/abs/2609.39089v1",
-          "published": "2026-09-30T06:27:05.000Z",
-          "authors": "Zhihao Guo",
-          "summary": "Sparse-view 3D Gaussian Splatting is prone to overfitting because limited observations leave many Gaussian primitives weakly constrained, yet their contributions are still accumulated through alpha blending. Without uncertainty estimation, the renderer cannot distinguish unrel...",
-          "tags": [
-            "gaussian"
-          ]
-        },
-        {
-          "title": "Gaussian Stippling: Efficient Sorting-Free 3D Gaussian Rendering through Hybrid Sampling and Spatiotemporal Reconstruction",
-          "link": "https://arxiv.org/abs/2609.38488v1",
-          "published": "2026-09-29T20:15:59.000Z",
-          "authors": "Zijian Huang",
-          "summary": "Conventional 3D Gaussian Splatting (3DGS) requires depth sorting and ordered alpha blending to correctly render overlapping Gaussian primitives. Stochastic transparency enables sorting-free rendering by replacing fractional alpha contributions with discrete stochastic visibili...",
-          "tags": [
-            "gaussian"
-          ]
-        },
-        {
-          "title": "OneFixer: High-Quality and Consistent One-Step Autoregressive 3DGS Refinement for Driving Scenes",
-          "link": "https://arxiv.org/abs/2609.32175v1",
-          "published": "2026-09-26T02:53:32.000Z",
-          "authors": "Boseong Jeon",
-          "summary": "Autoregressive video diffusion is a promising render-time fixer for 3D Gaussian Splatting (3DGS) in autonomous-driving simulation, but deployment demands high visual quality and temporal consistency at low latency. This is especially hard for one-step causal generation, where ...",
-          "tags": [
-            "diffusion",
-            "gaussian",
-            "real-time"
           ]
         }
       ]
