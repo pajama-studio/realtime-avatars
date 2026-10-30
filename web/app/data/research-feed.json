@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T16:32:03.275Z",
+  "updatedAt": "2026-10-30T16:37:39.353Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -239,7 +239,7 @@
         },
         {
           "title": "PrinGS: Privacy Preservation in Gaussian Splatting",
-          "link": "https://arxiv.org/abs/2610.36168v1",
+          "link": "https://arxiv.org/abs/2610.36168v2",
           "published": "2026-10-26T19:02:22.000Z",
           "authors": "Gaurav Behera",
           "summary": "3D Gaussian Splatting (3DGS) has rapidly become the preferred representation for high-fidelity novel view synthesis and 3D scene reconstruction. However, the learned representation encodes sensitive visual information including human faces, license plates, documents, and compu...",
