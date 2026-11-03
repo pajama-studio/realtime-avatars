@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T16:37:39.353Z",
+  "updatedAt": "2026-11-03T17:39:55.335Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -53,10 +53,10 @@
         },
         {
           "title": "OmniFaceRig: Fully Automatic Inner-Mouth-Aware Face Rigging Across Diverse 3D Character Topologies",
-          "link": "https://arxiv.org/abs/2606.08043v1",
+          "link": "https://arxiv.org/abs/2606.08043v2",
           "published": "2026-06-06T08:06:01.000Z",
           "authors": "Chao Wang",
-          "summary": "Facial rigging - creating FACS-based blendshapes together with inner-mouth geometry (teeth, gums, and tongue) - remains a major bottleneck in 3D character production. Existing pipelines still require substantial designer effort, especially for manual landmark annotation, per-c...",
+          "summary": "Facial rigging--creating Facial Action Coding System (FACS) blendshapes and inner-mouth geometry (teeth, gums, and tongue)--remains a major bottleneck in 3D character production. We present OmniFaceRig, a fully automatic end-to-end pipeline that converts a static surface-only ...",
           "tags": []
         },
         {
@@ -109,6 +109,14 @@
       "label": "Generative Video Models",
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
+        {
+          "title": "TaoMate-FVSR:Audio-Guided Facial Video Restoration",
+          "link": "https://arxiv.org/abs/2611.03393v1",
+          "published": "2026-11-02T16:29:25.000Z",
+          "authors": "Xinyang Li",
+          "summary": "AI-generated videos often depict people within detailed scenes while leaving their small facial regions poorly resolved. Visual super-resolution can sharpen these regions without resolving whether the recovered lips and teeth agree with the spoken audio. We present an audio-gu...",
+          "tags": []
+        },
         {
           "title": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
           "link": "https://arxiv.org/abs/2610.33413v1",
@@ -200,16 +208,6 @@
           "tags": [
             "real-time"
           ]
-        },
-        {
-          "title": "Decoupled Self-Forcing Distillation for Streaming Talking Head Generation",
-          "link": "https://arxiv.org/abs/2609.10317v1",
-          "published": "2026-09-09T15:22:49.000Z",
-          "authors": "Yanru An",
-          "summary": "Streaming talking-head generation produces each frame as its driving audio arrives, yet fidelity and efficiency have so far pulled in opposite directions: end-to-end methods condition a video diffusion model on audio directly and achieve high quality but only at large scale, w...",
-          "tags": [
-            "diffusion"
-          ]
         }
       ]
     },
@@ -217,6 +215,17 @@
       "label": "Gaussian Splatting (3DGS)",
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
+        {
+          "title": "GaussFlaw: Fine-Grained Perceptual Diagnosis for 3D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2611.02767v1",
+          "published": "2026-11-02T08:46:50.000Z",
+          "authors": "Shaocheng Shen",
+          "summary": "3D Gaussian Splatting (3DGS) enables photorealistic novel- view synthesis with real-time rendering, yet fine-grained di- agnosis of its rendering artifacts remains challenging. These artifacts are typically spatially localized and exhibit diverse degradation patterns, making t...",
+          "tags": [
+            "gaussian",
+            "real-time"
+          ]
+        },
         {
           "title": "CTBakeGS: training-free baking of photorealistic CT volume renderings into 3D Gaussian splats",
           "link": "https://arxiv.org/abs/2610.37406v1",
@@ -330,16 +339,6 @@
           "summary": "High-fidelity 3D head avatars have reached near-photorealistic quality. While recent methods enable text-driven manipulation, they struggle to provide fine-grained localized control, often entangling features or lacking geometric consistency. Modifying geometry through natural...",
           "tags": [
             "diffusion",
-            "gaussian"
-          ]
-        },
-        {
-          "title": "SCION: Scene Composition with Instanced Neural Primitives",
-          "link": "https://arxiv.org/abs/2610.02322v2",
-          "published": "2026-10-01T18:00:06.000Z",
-          "authors": "William Koch",
-          "summary": "Real-world scenes are compositional: bricks, blades of grass, pebbles, and tree leaves recur across human-built and natural environments. Existing neural scene representations model these elements independently. Most 3D Gaussian Splatting and follow-up abstraction and compress...",
-          "tags": [
             "gaussian"
           ]
         }
