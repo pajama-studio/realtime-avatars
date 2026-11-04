@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T17:39:55.335Z",
+  "updatedAt": "2026-11-04T17:53:54.528Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -110,12 +110,14 @@
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
         {
-          "title": "TaoMate-FVSR:Audio-Guided Facial Video Restoration",
-          "link": "https://arxiv.org/abs/2611.03393v1",
+          "title": "TaoMate-FVSR: Audio-Guided Facial Video Restoration",
+          "link": "https://arxiv.org/abs/2611.03393v2",
           "published": "2026-11-02T16:29:25.000Z",
           "authors": "Xinyang Li",
-          "summary": "AI-generated videos often depict people within detailed scenes while leaving their small facial regions poorly resolved. Visual super-resolution can sharpen these regions without resolving whether the recovered lips and teeth agree with the spoken audio. We present an audio-gu...",
-          "tags": []
+          "summary": "Low-quality facial videos suffer from missing fine details, while AI-generated videos may additionally contain implausible teeth and lip movements that do not match the speech. Restoring the mouth region is particularly challenging: enhancing existing details can preserve stru...",
+          "tags": [
+            "diffusion"
+          ]
         },
         {
           "title": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
@@ -215,6 +217,18 @@
       "label": "Gaussian Splatting (3DGS)",
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
+        {
+          "title": "3DGS-VBench+ and 3DGSV-Assessor: A Multi-Dimensional Subjective Benchmark and a Reference-Flexible Objective Model for 3D Gaussian Splatting Video Quality Assessment",
+          "link": "https://arxiv.org/abs/2611.04498v1",
+          "published": "2026-11-03T08:26:13.000Z",
+          "authors": "Yuke Xing",
+          "summary": "3D Gaussian Splatting (3DGS) enables real-time novel view synthesis (NVS), but its heavy storage makes compression essential, and both training and compression introduce representation-specific distortions. Since generative compression in many methods treats geometric and colo...",
+          "tags": [
+            "compression",
+            "gaussian",
+            "real-time"
+          ]
+        },
         {
           "title": "GaussFlaw: Fine-Grained Perceptual Diagnosis for 3D Gaussian Splatting",
           "link": "https://arxiv.org/abs/2611.02767v1",
@@ -328,17 +342,6 @@
           "authors": "Minhyeok Lee",
           "summary": "Feed-forward 3D Gaussian Splatting (3DGS) reconstructs a scene in a single forward pass, replacing per-scene optimization with a network trained across many scenes. Its quality, however, degrades sharply as the number of input images drops. The bottleneck is upstream of the re...",
           "tags": [
-            "gaussian"
-          ]
-        },
-        {
-          "title": "ManifoldSplat: Language-Guided Semantic Shape Editing of 3D Gaussian Head Avatars",
-          "link": "https://arxiv.org/abs/2610.03599v1",
-          "published": "2026-10-02T17:04:22.000Z",
-          "authors": "Antonio Canela",
-          "summary": "High-fidelity 3D head avatars have reached near-photorealistic quality. While recent methods enable text-driven manipulation, they struggle to provide fine-grained localized control, often entangling features or lacking geometric consistency. Modifying geometry through natural...",
-          "tags": [
-            "diffusion",
             "gaussian"
           ]
         }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T17:39:58.069Z",
+  "updatedAt": "2026-11-04T17:54:00.051Z",
   "source": "GitHub Search",
   "queries": {
     "metahuman": {
@@ -74,7 +74,7 @@
           "name": "vinjn/llm-metahuman",
           "link": "https://github.com/vinjn/llm-metahuman",
           "description": "An open solution for AI-powered photorealistic digital humans.",
-          "stars": 150,
+          "stars": 151,
           "pushedAt": "2025-07-12T19:17:58.000Z",
           "language": "Python"
         },
@@ -112,7 +112,7 @@
           "name": "Kedreamix/Linly-Talker",
           "link": "https://github.com/Kedreamix/Linly-Talker",
           "description": "Digital Avatar Conversational System - Linly-Talker.  Linly-Talker is an intelligent AI system that combines large language models (LLMs) with visual models to create a novel human-AI interaction method.  It integrates various technologies like Whisper, Linly, Microsoft Speech Services, and SadTalker talking head generation system. ",
-          "stars": 3478,
+          "stars": 3479,
           "pushedAt": "2026-02-10T05:17:05.000Z",
           "language": "Python"
         },
@@ -120,7 +120,7 @@
           "name": "yuyuyzl/EasyVtuber",
           "link": "https://github.com/yuyuyzl/EasyVtuber",
           "description": "Based on Talking-head-anime 3, works like Vtube Studio.",
-          "stars": 3077,
+          "stars": 3078,
           "pushedAt": "2026-02-12T07:11:57.000Z",
           "language": "Python"
         },
@@ -160,7 +160,7 @@
           "name": "andyhuo520/digital-human-koubo",
           "link": "https://github.com/andyhuo520/digital-human-koubo",
           "description": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy ...",
-          "stars": 1756,
+          "stars": 1774,
           "pushedAt": "2026-10-31T12:05:46.000Z",
           "language": "TypeScript"
         },
@@ -168,8 +168,8 @@
           "name": "met4citizen/TalkingHead",
           "link": "https://github.com/met4citizen/TalkingHead",
           "description": "Talking Head (3D): A JavaScript class for real-time lip-sync using full-body 3D avatars.",
-          "stars": 1660,
-          "pushedAt": "2026-10-30T14:12:18.000Z",
+          "stars": 1662,
+          "pushedAt": "2026-11-04T09:50:28.000Z",
           "language": "JavaScript"
         }
       ]
@@ -182,7 +182,7 @@
           "name": "graphdeco-inria/gaussian-splatting",
           "link": "https://github.com/graphdeco-inria/gaussian-splatting",
           "description": "Original reference implementation of \"3D Gaussian Splatting for Real-Time Radiance Field Rendering\"",
-          "stars": 24406,
+          "stars": 24417,
           "pushedAt": "2025-10-17T14:28:15.000Z",
           "language": "Python"
         },
@@ -190,7 +190,7 @@
           "name": "playcanvas/supersplat",
           "link": "https://github.com/playcanvas/supersplat",
           "description": "3D Gaussian Splat Editor",
-          "stars": 10580,
+          "stars": 10592,
           "pushedAt": "2026-10-31T22:22:37.000Z",
           "language": "TypeScript"
         },
@@ -198,7 +198,7 @@
           "name": "MrNeRF/awesome-3D-gaussian-splatting",
           "link": "https://github.com/MrNeRF/awesome-3D-gaussian-splatting",
           "description": "Curated list of papers and resources focused on 3D Gaussian Splatting, intended to keep pace with the anticipated surge of research in the coming months.",
-          "stars": 8985,
+          "stars": 8986,
           "pushedAt": "2026-10-04T04:41:54.000Z",
           "language": "Python"
         },
@@ -206,7 +206,7 @@
           "name": "nerfstudio-project/gsplat",
           "link": "https://github.com/nerfstudio-project/gsplat",
           "description": "CUDA accelerated rasterization of gaussian splatting",
-          "stars": 5860,
+          "stars": 5863,
           "pushedAt": "2026-09-19T07:16:19.000Z",
           "language": "Python"
         },
@@ -222,7 +222,7 @@
           "name": "hustvl/4DGaussians",
           "link": "https://github.com/hustvl/4DGaussians",
           "description": "[CVPR 2024] 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering",
-          "stars": 4011,
+          "stars": 4014,
           "pushedAt": "2024-10-27T04:07:37.000Z",
           "language": "Jupyter Notebook"
         },
@@ -230,8 +230,8 @@
           "name": "MrNeRF/LichtFeld-Studio",
           "link": "https://github.com/MrNeRF/LichtFeld-Studio",
           "description": "Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application.",
-          "stars": 3956,
-          "pushedAt": "2026-11-03T12:53:27.000Z",
+          "stars": 3964,
+          "pushedAt": "2026-11-04T10:58:55.000Z",
           "language": "C++"
         },
         {
@@ -246,7 +246,7 @@
           "name": "Anttwo/SuGaR",
           "link": "https://github.com/Anttwo/SuGaR",
           "description": "[CVPR 2024] Official PyTorch implementation of SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering",
-          "stars": 3553,
+          "stars": 3554,
           "pushedAt": "2024-09-24T15:13:31.000Z",
           "language": "C++"
         },
@@ -254,7 +254,7 @@
           "name": "aras-p/UnityGaussianSplatting",
           "link": "https://github.com/aras-p/UnityGaussianSplatting",
           "description": "Gaussian Splatting visualization for Unity",
-          "stars": 3458,
+          "stars": 3459,
           "pushedAt": "2026-11-02T15:59:08.000Z",
           "language": "C#"
         }
