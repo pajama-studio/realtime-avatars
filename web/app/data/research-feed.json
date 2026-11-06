@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T17:53:54.528Z",
+  "updatedAt": "2026-11-06T17:19:05.802Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -53,7 +53,7 @@
         },
         {
           "title": "OmniFaceRig: Fully Automatic Inner-Mouth-Aware Face Rigging Across Diverse 3D Character Topologies",
-          "link": "https://arxiv.org/abs/2606.08043v2",
+          "link": "https://arxiv.org/abs/2606.08043v3",
           "published": "2026-06-06T08:06:01.000Z",
           "authors": "Chao Wang",
           "summary": "Facial rigging--creating Facial Action Coding System (FACS) blendshapes and inner-mouth geometry (teeth, gums, and tongue)--remains a major bottleneck in 3D character production. We present OmniFaceRig, a fully automatic end-to-end pipeline that converts a static surface-only ...",
@@ -109,6 +109,18 @@
       "label": "Generative Video Models",
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
+        {
+          "title": "EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure",
+          "link": "https://arxiv.org/abs/2611.07909v1",
+          "published": "2026-11-05T12:25:51.000Z",
+          "authors": "Kwan Yun",
+          "summary": "Recent advances in Gaussian splatting have enabled efficient and photorealistic head avatar reconstruction, yet monocular video-based or image-based methods still suffer from under-constrained geometry and texture, leading to artifacts such as blurring, stretching, and tempora...",
+          "tags": [
+            "diffusion",
+            "gaussian",
+            "monocular"
+          ]
+        },
         {
           "title": "TaoMate-FVSR: Audio-Guided Facial Video Restoration",
           "link": "https://arxiv.org/abs/2611.03393v2",
@@ -218,6 +230,30 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "InstantHand: Feed-Forward 3D Gaussian Splatting for Animatable Hand Avatar Reconstruction from a Single Image",
+          "link": "https://arxiv.org/abs/2611.08330v1",
+          "published": "2026-11-05T17:21:08.000Z",
+          "authors": "Chanho Kim",
+          "summary": "Hand avatar reconstruction typically relies on multi-view capture or per-subject optimization, limiting its scalability. We introduce InstantHand, a feed-forward framework that constructs an animatable 3D Gaussian hand avatar from a single image using off-the-shelf MANO, camer...",
+          "tags": [
+            "gaussian",
+            "monocular",
+            "multi-view"
+          ]
+        },
+        {
+          "title": "EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure",
+          "link": "https://arxiv.org/abs/2611.07909v1",
+          "published": "2026-11-05T12:25:51.000Z",
+          "authors": "Kwan Yun",
+          "summary": "Recent advances in Gaussian splatting have enabled efficient and photorealistic head avatar reconstruction, yet monocular video-based or image-based methods still suffer from under-constrained geometry and texture, leading to artifacts such as blurring, stretching, and tempora...",
+          "tags": [
+            "diffusion",
+            "gaussian",
+            "monocular"
+          ]
+        },
+        {
           "title": "3DGS-VBench+ and 3DGSV-Assessor: A Multi-Dimensional Subjective Benchmark and a Reference-Flexible Objective Model for 3D Gaussian Splatting Video Quality Assessment",
           "link": "https://arxiv.org/abs/2611.04498v1",
           "published": "2026-11-03T08:26:13.000Z",
@@ -323,26 +359,6 @@
           "tags": [
             "gaussian",
             "real-time"
-          ]
-        },
-        {
-          "title": "DeltaSplat: Iterative Gaussian Refinement for Pose-Free Feed-Forward 3D Gaussian Splatting",
-          "link": "https://arxiv.org/abs/2610.09853v1",
-          "published": "2026-10-07T11:11:22.000Z",
-          "authors": "Chanung Park",
-          "summary": "Pose-free feed-forward 3D Gaussian Splatting (3DGS) reconstructs a scene from sparse, unposed images in a single network pass, removing the need for camera calibration and per-scene optimization. However, camera estimation errors propagate into the predicted Gaussians and comp...",
-          "tags": [
-            "gaussian"
-          ]
-        },
-        {
-          "title": "DensiTok: Making Feed-Forward 3D Gaussian Splatting See More Views Than It Is Given",
-          "link": "https://arxiv.org/abs/2610.07958v1",
-          "published": "2026-10-06T08:29:41.000Z",
-          "authors": "Minhyeok Lee",
-          "summary": "Feed-forward 3D Gaussian Splatting (3DGS) reconstructs a scene in a single forward pass, replacing per-scene optimization with a network trained across many scenes. Its quality, however, degrades sharply as the number of input images drops. The bottleneck is upstream of the re...",
-          "tags": [
-            "gaussian"
           ]
         }
       ]
