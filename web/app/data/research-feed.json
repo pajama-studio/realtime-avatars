@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T17:19:05.802Z",
+  "updatedAt": "2026-11-09T20:36:10.283Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -110,6 +110,17 @@
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
         {
+          "title": "Emo-LiveSync: Real-Time Universal Lip Synchronization with Explicit Emotion Control",
+          "link": "https://arxiv.org/abs/2611.09074v1",
+          "published": "2026-11-06T07:01:35.000Z",
+          "authors": "Sangjoon Yu",
+          "summary": "Lip synchronization, the task of generating realistic lip movements synchronized with audio signals, is fundamental to applications such as film dubbing, virtual avatars, and digital content creation. Recent GAN-based methods offer computational efficiency but often lack visua...",
+          "tags": [
+            "lip-sync",
+            "real-time"
+          ]
+        },
+        {
           "title": "EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure",
           "link": "https://arxiv.org/abs/2611.07909v1",
           "published": "2026-11-05T12:25:51.000Z",
@@ -211,16 +222,6 @@
           "tags": [
             "audio-driven",
             "lip-sync"
-          ]
-        },
-        {
-          "title": "AVTR-1: Open Stack for Real-Time Interactive Avatars",
-          "link": "https://arxiv.org/abs/2609.22913v1",
-          "published": "2026-09-19T09:45:26.000Z",
-          "authors": "Artem Kravtsov",
-          "summary": "Talking-head and dyadic models now achieve real-time inference, yet fast motion generation alone does not produce an interactive conversation. A live system must synchronize the model's output with speech from an external voice agent, schedule video frames for playback, and ha...",
-          "tags": [
-            "real-time"
           ]
         }
       ]
