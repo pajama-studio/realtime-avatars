@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T20:36:10.283Z",
+  "updatedAt": "2026-11-10T17:37:36.086Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -93,14 +93,6 @@
           "published": "2026-02-06T18:03:30.000Z",
           "authors": "Haoyu Zhang",
           "summary": "Omni-modal large language models (OLLMs) aim to unify multimodal understanding and generation, yet extending them to jointly produce speech and 3D facial animation remains largely underexplored. A key challenge is the mismatch between the discrete semantic reasoning of LLMs an...",
-          "tags": []
-        },
-        {
-          "title": "RigAnyFace: Scaling Neural Facial Mesh Auto-Rigging with Unlabeled Data",
-          "link": "https://arxiv.org/abs/2511.18601v1",
-          "published": "2025-11-23T19:55:08.000Z",
-          "authors": "Wenchao Ma",
-          "summary": "In this paper, we present RigAnyFace (RAF), a scalable neural auto-rigging framework for facial meshes of diverse topologies, including those with multiple disconnected components. RAF deforms a static neutral facial mesh into industry-standard FACS poses to form an expressive...",
           "tags": []
         }
       ]
