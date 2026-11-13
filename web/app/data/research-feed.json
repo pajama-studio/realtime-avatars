@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T17:37:36.086Z",
+  "updatedAt": "2026-11-13T17:36:33.010Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -280,16 +280,6 @@
           ]
         },
         {
-          "title": "GraftRay: Physically Based Mesh Insertion into Gaussian Splatting Scenes via Path Tracing",
-          "link": "https://arxiv.org/abs/2610.37036v1",
-          "published": "2026-10-27T11:11:48.000Z",
-          "authors": "Jinxin Ai",
-          "summary": "Inserting virtual objects into scenes reconstructed via 2D or 3D Gaussian Splatting (2DGS/3DGS) is a key capability for content creation, AR, and synthetic data generation. However, realistic insertion requires the object to be seamlessly lit by the scene and, conversely, to c...",
-          "tags": [
-            "gaussian"
-          ]
-        },
-        {
           "title": "PrinGS: Privacy Preservation in Gaussian Splatting",
           "link": "https://arxiv.org/abs/2610.36168v2",
           "published": "2026-10-26T19:02:22.000Z",
@@ -352,6 +342,16 @@
           "tags": [
             "gaussian",
             "real-time"
+          ]
+        },
+        {
+          "title": "DeltaSplat: Iterative Gaussian Refinement for Pose-Free Feed-Forward 3D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2610.09853v1",
+          "published": "2026-10-07T11:11:22.000Z",
+          "authors": "Chanung Park",
+          "summary": "Pose-free feed-forward 3D Gaussian Splatting (3DGS) reconstructs a scene from sparse, unposed images in a single network pass, removing the need for camera calibration and per-scene optimization. However, camera estimation errors propagate into the predicted Gaussians and comp...",
+          "tags": [
+            "gaussian"
           ]
         }
       ]
