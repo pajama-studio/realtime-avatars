@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T18:45:33.940Z",
+  "updatedAt": "2026-11-20T18:27:49.581Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -101,6 +101,17 @@
       "label": "Generative Video Models",
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
+        {
+          "title": "AURA: AUdio-dRiven streaming Avatar",
+          "link": "https://arxiv.org/abs/2611.26540v1",
+          "published": "2026-11-19T18:17:38.000Z",
+          "authors": "Nathaniel Cohen",
+          "summary": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, wh...",
+          "tags": [
+            "audio-driven",
+            "diffusion"
+          ]
+        },
         {
           "title": "Emo-LiveSync: Real-Time Universal Lip Synchronization with Explicit Emotion Control",
           "link": "https://arxiv.org/abs/2611.09074v1",
