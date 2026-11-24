@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T18:27:49.581Z",
+  "updatedAt": "2026-11-24T20:34:29.727Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -234,8 +234,19 @@
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
         {
+          "title": "WildAnySplat: Feed-Forward 3D Gaussian Splatting in the Wild",
+          "link": "https://arxiv.org/abs/2611.31023v1",
+          "published": "2026-11-23T17:05:01.000Z",
+          "authors": "Richard Shaw",
+          "summary": "We present WildAnySplat, a feed-forward 3D Gaussian Splatting framework that enables robust novel-view synthesis from in-the-wild multi-view images. Unlike controlled captures, real-world images often contain multi-view inconsistencies caused by transient occluders, illuminati...",
+          "tags": [
+            "gaussian",
+            "multi-view"
+          ]
+        },
+        {
           "title": "CoSphere-SLAM: Multi-Agent Panoramic Gaussian Splatting SLAM with Spherical Loop Closure",
-          "link": "https://arxiv.org/abs/2611.22235v1",
+          "link": "https://arxiv.org/abs/2611.22235v2",
           "published": "2026-11-17T05:37:15.000Z",
           "authors": "Qi Shao",
           "summary": "Dense collaborative mapping is essential for search and rescue, building inspection, and warehouse automation, where panoramic cameras capture the entire surroundings in a single frame. Unlike pinhole agents that share views only at similar headings, panoramic agents observe o...",
@@ -352,17 +363,6 @@
             "diffusion",
             "gaussian",
             "monocular"
-          ]
-        },
-        {
-          "title": "Make It Flow: Animating Water in 3D Gaussian Splatting Scenes",
-          "link": "https://arxiv.org/abs/2610.13860v1",
-          "published": "2026-10-09T17:08:02.000Z",
-          "authors": "Kjell Keune",
-          "summary": "Explicit 3D scene representations such as 3D Gaussian Splatting (3DGS) have recently enabled high-quality, real-time novel view synthesis. However, these methods assume static scenes, limiting realism in the presence of dynamic phenomena ubiquitous in real-world environments. ...",
-          "tags": [
-            "gaussian",
-            "real-time"
           ]
         }
       ]
