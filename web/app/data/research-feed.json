@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T20:34:29.727Z",
+  "updatedAt": "2026-11-26T19:28:42.453Z",
   "source": "arXiv",
   "methods": {
     "metahuman": {
@@ -101,6 +101,18 @@
       "label": "Generative Video Models",
       "query": "cat:cs.CV AND ((all:\"talking head\" OR all:\"portrait animation\" OR all:\"head avatar\" OR all:reenactment) AND (all:audio OR all:speech OR all:lip OR all:avatar))",
       "items": [
+        {
+          "title": "LuxAvatar: Real-Time Relightable Head Avatars via Causal Neural Shading of 3D Intrinsic Proxies",
+          "link": "https://arxiv.org/abs/2611.34940v1",
+          "published": "2026-11-25T18:59:46.000Z",
+          "authors": "Yipengjing Sun",
+          "summary": "We present LuxAvatar, a feed-forward framework for real-time head avatar animation and relighting from a single portrait. To achieve both 3D controllability and complex facial light transport, we factorize avatar synthesis into an animatable 3D intrinsic Gaussian proxy and a c...",
+          "tags": [
+            "gaussian",
+            "real-time",
+            "relighting"
+          ]
+        },
         {
           "title": "AURA: AUdio-dRiven streaming Avatar",
           "link": "https://arxiv.org/abs/2611.26540v1",
@@ -215,17 +227,6 @@
             "diffusion",
             "real-time"
           ]
-        },
-        {
-          "title": "Beyond Lip Sync: Reference-Grounded Oral Refinement for Audio-Driven Portrait Animation",
-          "link": "https://arxiv.org/abs/2609.38019v1",
-          "published": "2026-09-29T17:02:27.000Z",
-          "authors": "Bangxun Tang",
-          "summary": "We present RGOR (Reference-Grounded Oral Refinement), an audio-driven lip-sync framework that renders the mouth of the specific person being dubbed rather than a generic one. Existing lip-sync systems follow the audio closely and keep the face recognizable, yet the mouth they ...",
-          "tags": [
-            "audio-driven",
-            "lip-sync"
-          ]
         }
       ]
     },
@@ -233,6 +234,28 @@
       "label": "Gaussian Splatting (3DGS)",
       "query": "cat:cs.CV AND (all:gaussian AND (all:splatting OR all:\"gaussian splatting\" OR all:3dgs) AND (all:avatar OR all:human OR all:head OR all:talking OR all:conversation OR all:\"large avatar\"))",
       "items": [
+        {
+          "title": "Feed-Forward Adaptive Gaussian Splatting for Interactive Medical Volume Rendering",
+          "link": "https://arxiv.org/abs/2611.34478v1",
+          "published": "2026-11-25T14:43:03.000Z",
+          "authors": "Zhongpai Gao",
+          "summary": "Path-traced rendering shows CT and MR volumes with realistic lighting, but it restarts after every change of view, clipping plane or transfer function (TF), the map from voxel intensity to colour and opacity, which limits the frame rate. Feed-forward Gaussian splatting models ...",
+          "tags": [
+            "gaussian"
+          ]
+        },
+        {
+          "title": "SplatWAM: Splatting World Action Models for Real-Time 3D Imagination",
+          "link": "https://arxiv.org/abs/2611.33467v1",
+          "published": "2026-11-24T21:43:32.000Z",
+          "authors": "Frank Tsu-Fang Lu",
+          "summary": "World models typically predict future observations in pixel or latent space, limiting their ability to directly represent true 3D scene evolution. We present SplatWAM (Splatting World Action Model), a generative world model that learns action-conditioned dynamics directly over...",
+          "tags": [
+            "diffusion",
+            "gaussian",
+            "real-time"
+          ]
+        },
         {
           "title": "WildAnySplat: Feed-Forward 3D Gaussian Splatting in the Wild",
           "link": "https://arxiv.org/abs/2611.31023v1",
@@ -340,29 +363,6 @@
           "summary": "Robots deployed in human-centered environments need maps that support both geometric navigation and open-vocabulary semantic queries beyond a fixed label set. A key challenge is enriching such maps with semantic information without relying on manually annotated segmentation ma...",
           "tags": [
             "gaussian"
-          ]
-        },
-        {
-          "title": "HumanSkill-4D: Training-Free Language Querying of Animatable Gaussian Avatars in Space and Time",
-          "link": "https://arxiv.org/abs/2610.24452v2",
-          "published": "2026-10-17T04:43:01.000Z",
-          "authors": "Junsu Kim",
-          "summary": "We introduce avatar referring segmentation, which selects regions of animatable Gaussian avatars from language queries. A query can also specify a pose or motion to select matching intervals. This lets users interact with avatars for local editing and motion inspection. Howeve...",
-          "tags": [
-            "diffusion",
-            "gaussian"
-          ]
-        },
-        {
-          "title": "EGGHead: Efficient Generalizable Gaussian Heads from a Single Image",
-          "link": "https://arxiv.org/abs/2610.26898v1",
-          "published": "2026-10-16T19:08:10.000Z",
-          "authors": "Pilseo Park",
-          "summary": "Creating photorealistic human heads typically involves trade-offs between representation power, efficiency, and generalizability. Traditional mesh-based solutions relying on 3DMMs generally sacrifice representation power but are efficient to render. On the other hand, NeRF-bas...",
-          "tags": [
-            "diffusion",
-            "gaussian",
-            "monocular"
           ]
         }
       ]
